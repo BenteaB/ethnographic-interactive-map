@@ -31,6 +31,17 @@ function ItemList({ items }: { items: Item[] }) {
   );
 }
 
+interface Category {
+  id: keyof Pick<RegionContent, "games" | "costumes" | "traditions">;
+  label: string;
+}
+
+const categories: Category[] = [
+  { id: "games", label: "Games" },
+  { id: "costumes", label: "Costumes" },
+  { id: "traditions", label: "Traditions" }
+];
+
 function PanelContent({ region }: { region: RegionContent | null }) {
   if (!region) {
     return (
@@ -49,28 +60,20 @@ function PanelContent({ region }: { region: RegionContent | null }) {
         <p>{region.summary}</p>
       </header>
 
-      <Tabs.Root defaultValue="games" className={styles.tabs}>
+      <Tabs.Root defaultValue={categories[0].id} className={styles.tabs}>
         <Tabs.List className={styles.tabsList} aria-label="Region content tabs">
-          <Tabs.Trigger value="games" className={styles.tabTrigger}>
-            Games
-          </Tabs.Trigger>
-          <Tabs.Trigger value="costumes" className={styles.tabTrigger}>
-            Costumes
-          </Tabs.Trigger>
-          <Tabs.Trigger value="traditions" className={styles.tabTrigger}>
-            Traditions
-          </Tabs.Trigger>
+          {categories.map((category) => (
+            <Tabs.Trigger key={category.id} value={category.id} className={styles.tabTrigger}>
+              {category.label}
+            </Tabs.Trigger>
+          ))}
         </Tabs.List>
 
-        <Tabs.Content value="games">
-          <ItemList items={region.games} />
-        </Tabs.Content>
-        <Tabs.Content value="costumes">
-          <ItemList items={region.costumes} />
-        </Tabs.Content>
-        <Tabs.Content value="traditions">
-          <ItemList items={region.traditions} />
-        </Tabs.Content>
+        {categories.map((category) => (
+          <Tabs.Content key={category.id} value={category.id}>
+            <ItemList items={region[category.id]} />
+          </Tabs.Content>
+        ))}
       </Tabs.Root>
 
       <section className={styles.gallery}>
@@ -87,6 +90,7 @@ function PanelContent({ region }: { region: RegionContent | null }) {
                   width={560}
                   height={340}
                   className={styles.image}
+                  unoptimized // Since we use SVG placeholders
                 />
                 {image.credit ? <figcaption>{image.credit}</figcaption> : null}
               </figure>

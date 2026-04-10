@@ -1,16 +1,11 @@
 "use client";
 
-import type { Feature, FeatureCollection, Geometry, Polygon } from "geojson";
+import type { Feature } from "geojson";
 import type { Layer, LatLngBoundsExpression, PathOptions } from "leaflet";
 import { GeoJSON, MapContainer, TileLayer } from "react-leaflet";
-import { romaniaGeo } from "@/lib/romaniaGeo";
+import { romaniaGeo, type RegionFeatureProperties } from "@/lib/romaniaGeo";
 import type { RegionId } from "@/types/region";
 import styles from "./Map.module.css";
-
-type RegionFeatureProperties = {
-  regionId: RegionId;
-  name: string;
-};
 
 type RegionMapProps = {
   selectedRegionId: RegionId | null;
@@ -32,8 +27,6 @@ function getRegionStyle(isSelected: boolean): PathOptions {
 }
 
 export function LeafletRegionMap({ selectedRegionId, onSelectRegion }: RegionMapProps) {
-  const geoJsonData = romaniaGeo as FeatureCollection<Polygon, RegionFeatureProperties>;
-
   return (
     <section className={styles.wrapper} aria-label="Interactive map of Romania regions">
       <MapContainer
@@ -50,13 +43,13 @@ export function LeafletRegionMap({ selectedRegionId, onSelectRegion }: RegionMap
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <GeoJSON
-          data={geoJsonData}
-          style={(feature?: Feature<Geometry, RegionFeatureProperties>) => {
-            const regionId = feature?.properties?.regionId as RegionId | undefined;
+          data={romaniaGeo}
+          style={(feature) => {
+            const regionId = (feature as Feature)?.properties?.regionId;
             return getRegionStyle(regionId === selectedRegionId);
           }}
-          onEachFeature={(feature: Feature<Geometry, RegionFeatureProperties>, layer: Layer) => {
-            const { name, regionId } = feature.properties;
+          onEachFeature={(feature: Feature, layer: Layer) => {
+            const { name, regionId } = feature.properties as RegionFeatureProperties;
             layer.bindTooltip(name, { direction: "center", permanent: false, sticky: true });
             layer.on("click", () => onSelectRegion(regionId));
           }}

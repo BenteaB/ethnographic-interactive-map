@@ -1,26 +1,12 @@
+import type { FeatureCollection, Polygon } from "geojson";
 import type { RegionId } from "@/types/region";
 
-type Coordinate = [number, number];
-
-type Geometry = {
-  type: "Polygon";
-  coordinates: Coordinate[][];
+export type RegionFeatureProperties = {
+  regionId: RegionId;
+  name: string;
 };
 
-type RegionFeature = {
-  type: "Feature";
-  id: RegionId;
-  properties: {
-    regionId: RegionId;
-    name: string;
-  };
-  geometry: Geometry;
-};
-
-type RegionFeatureCollection = {
-  type: "FeatureCollection";
-  features: RegionFeature[];
-};
+export type RegionFeatureCollection = FeatureCollection<Polygon, RegionFeatureProperties>;
 
 export const romaniaGeo: RegionFeatureCollection = {
   type: "FeatureCollection",
