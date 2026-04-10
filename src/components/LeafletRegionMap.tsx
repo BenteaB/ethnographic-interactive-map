@@ -44,33 +44,47 @@ function getFeatureStyle(
   if (isSelectedSubzone) {
     return {
       color: "var(--map-stroke-active)",
-      weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-selected")),
+      weight: Number.parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue("--map-weight-selected")
+      ),
       fillColor: "var(--map-fill-active)",
-      fillOpacity: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-selected"))
+      fillOpacity: Number.parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-selected")
+      )
     };
   }
 
   if (isInSelectedRegion) {
     return {
       color: "var(--map-stroke-active)",
-      weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-region")),
+      weight: Number.parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue("--map-weight-region")
+      ),
       fillColor: "var(--map-fill-idle)",
-      fillOpacity: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-region"))
+      fillOpacity: Number.parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-region")
+      )
     };
   }
 
   if (isInHoveredRegion) {
     return {
       color: "var(--map-stroke-active)",
-      weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-hover")),
+      weight: Number.parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue("--map-weight-hover")
+      ),
       fillColor: "var(--map-fill-idle)",
-      fillOpacity: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-hover"))
+      fillOpacity: Number.parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-hover")
+      )
     };
   }
 
   return {
     color: "var(--map-stroke-idle)",
-    weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-idle")),
+    weight: Number.parseFloat(
+      getComputedStyle(document.documentElement).getPropertyValue("--map-weight-idle")
+    ),
     fillColor: "transparent",
     fillOpacity: 0
   };
@@ -101,7 +115,7 @@ export function LeafletRegionMap({
   }, []);
 
   /**
-   * Memoize the style function to prevent expensive map-wide recalculations 
+   * Memoize the style function to prevent expensive map-wide recalculations
    * unless the relevant selection or hover state actually changes.
    */
   const mapStyle = useCallback(
@@ -143,7 +157,8 @@ export function LeafletRegionMap({
             data={regionGeo}
             style={mapStyle}
             onEachFeature={(feature: Feature, layer: Layer) => {
-              const { name, regionId, county, subzone } = feature.properties as RegionFeatureProperties;
+              const { name, regionId, county, subzone } =
+                feature.properties as RegionFeatureProperties;
               const countyLabel = county.replaceAll("_", " ");
 
               layer.bindTooltip(`${name} - ${subzone} (${countyLabel})`, {

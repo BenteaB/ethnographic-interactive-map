@@ -47,8 +47,8 @@ export default function HomePage() {
       <header className={styles.header}>
         <h1>Ethnographic Interactive Map</h1>
         <p>
-          Select a region to discover traditional games, costumes, and local customs. MVP
-          currently includes 6 macro ethnographic regions.
+          Select a region to discover traditional games, costumes, and local customs. MVP currently
+          includes 6 macro ethnographic regions.
         </p>
       </header>
 

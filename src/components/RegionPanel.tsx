@@ -58,7 +58,10 @@ function PanelContent({
     return (
       <div className={styles.placeholder}>
         <h3>Select a region</h3>
-        <p>Choose one highlighted region from the map to view traditional games, costumes, and customs.</p>
+        <p>
+          Choose one highlighted region from the map to view traditional games, costumes, and
+          customs.
+        </p>
       </div>
     );
   }

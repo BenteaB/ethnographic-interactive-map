@@ -37,7 +37,11 @@ body {
 }
 
 body {
-  font-family: Inter, Segoe UI, Arial, sans-serif;
+  font-family:
+    Inter,
+    Segoe UI,
+    Arial,
+    sans-serif;
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.5;

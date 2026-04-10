@@ -16,7 +16,10 @@ type CountyFeatureProperties = {
   shapeType: string;
 };
 
-export type CountyFeatureCollection = FeatureCollection<Polygon | MultiPolygon, CountyFeatureProperties>;
+export type CountyFeatureCollection = FeatureCollection<
+  Polygon | MultiPolygon,
+  CountyFeatureProperties
+>;
 
 type RegionMeta = {
   regionId: RegionId;
@@ -24,7 +27,10 @@ type RegionMeta = {
   subzone: string;
 };
 
-export type RegionFeatureCollection = FeatureCollection<Polygon | MultiPolygon, RegionFeatureProperties>;
+export type RegionFeatureCollection = FeatureCollection<
+  Polygon | MultiPolygon,
+  RegionFeatureProperties
+>;
 
 export const countyToRegion: Record<string, RegionMeta> = {
   ALBA: { regionId: "transilvania", name: "Transilvania", subzone: "Podisul Tarnavelor" },
@@ -59,13 +65,29 @@ export const countyToRegion: Record<string, RegionMeta> = {
   ILFOV: { regionId: "muntenia", name: "Muntenia", subzone: "Campia Bucurestiului" },
   MARAMURES: { regionId: "transilvania", name: "Transilvania", subzone: "Maramuresul Istoric" },
   MEHEDINTI: { regionId: "oltenia", name: "Oltenia", subzone: "Plaiul Closani si Clisura Dunarii" },
-  MURES: { regionId: "transilvania", name: "Transilvania", subzone: "Muresul Superior si Valea Gurghiului" },
+  MURES: {
+    regionId: "transilvania",
+    name: "Transilvania",
+    subzone: "Muresul Superior si Valea Gurghiului"
+  },
   NEAMT: { regionId: "moldova", name: "Moldova", subzone: "Zona Neamtului carpatica" },
   OLT: { regionId: "oltenia", name: "Oltenia", subzone: "Romanati" },
   PRAHOVA: { regionId: "muntenia", name: "Muntenia", subzone: "Valea Prahovei" },
-  SALAJ: { regionId: "transilvania", name: "Transilvania", subzone: "Codrul Salajului si Silvania" },
-  SATU_MARE: { regionId: "transilvania", name: "Transilvania", subzone: "Tara Oasului si Campia Satmarului" },
-  SIBIU: { regionId: "transilvania", name: "Transilvania", subzone: "Marginimea Sibiului si Tara Oltului" },
+  SALAJ: {
+    regionId: "transilvania",
+    name: "Transilvania",
+    subzone: "Codrul Salajului si Silvania"
+  },
+  SATU_MARE: {
+    regionId: "transilvania",
+    name: "Transilvania",
+    subzone: "Tara Oasului si Campia Satmarului"
+  },
+  SIBIU: {
+    regionId: "transilvania",
+    name: "Transilvania",
+    subzone: "Marginimea Sibiului si Tara Oltului"
+  },
   SUCEAVA: { regionId: "moldova", name: "Moldova", subzone: "Bucovina istorica" },
   TELEORMAN: { regionId: "muntenia", name: "Muntenia", subzone: "Teleorman si Vlasca" },
   TIMIS: { regionId: "banat", name: "Banat", subzone: "Campia Banatului" },
