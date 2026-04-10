@@ -1,7 +1,7 @@
 "use client";
 
 import type { Feature } from "geojson";
-import type { Layer, LatLngBoundsExpression, PathOptions } from "leaflet";
+import L, { type Layer, type LatLngBoundsExpression, type PathOptions } from "leaflet";
 import { useEffect, useState } from "react";
 import { GeoJSON, MapContainer, TileLayer, useMapEvents } from "react-leaflet";
 import {
@@ -145,11 +145,13 @@ export function LeafletRegionMap({
               });
 
               layer.on({
-                click: () =>
+                click: (e) => {
+                  L.DomEvent.stopPropagation(e);
                   onSelectRegion(regionId, {
                     county: countyLabel,
                     subzone
-                  }),
+                  });
+                },
                 mouseover: () => setHoveredRegionId(regionId),
                 mouseout: () => setHoveredRegionId(null)
               });
