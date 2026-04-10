@@ -1,0 +1,36 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2rem;
+}
+
+.header h1 {
+  margin: 0 0 0.5rem;
+}
+
+.header p {
+  margin: 0;
+  color: var(--color-muted);
+  max-width: 72ch;
+}
+
+.layout {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.mapColumn {
+  min-width: 0;
+}
+
+.panelColumn {
+  min-width: 0;
+}
+
+@media (min-width: 900px) {
+  .layout {
+    grid-template-columns: 1.3fr 1fr;
+  }
+}

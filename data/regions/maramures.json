@@ -1,0 +1,35 @@
+{
+  "id": "maramures",
+  "code": "RO-MM",
+  "name": "Maramures",
+  "summary": "Mountain villages with strong woodcraft and winter ritual traditions.",
+  "games": [
+    {
+      "id": "maramures-hora-village",
+      "name": "Hora satului",
+      "description": "Community circle dance performed during village celebrations."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "maramures-white-shirt",
+      "name": "Camasa cu broderie neagra",
+      "description": "White shirt with dense black embroidery and woven belt."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "maramures-winter-ritual",
+      "name": "Datini de iarna",
+      "description": "Masked processions and songs symbolizing renewal and protection."
+    }
+  ],
+  "images": [
+    {
+      "id": "maramures-img-1",
+      "src": "/images/regions/maramures/main.svg",
+      "alt": "Traditional Maramures house and costume motif",
+      "credit": "Placeholder illustration"
+    }
+  ]
+}

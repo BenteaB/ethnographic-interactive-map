@@ -1,0 +1,35 @@
+{
+  "id": "oltenia",
+  "code": "RO-OT",
+  "name": "Oltenia",
+  "summary": "Strong choreographic rhythm and oral storytelling rooted in rural gatherings.",
+  "games": [
+    {
+      "id": "oltenia-sarba",
+      "name": "Sarba olteneasca",
+      "description": "Fast chain dance emphasizing synchronized footwork."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "oltenia-vest",
+      "name": "Vesta cusuta manual",
+      "description": "Dark vest with geometric motifs layered over linen shirt."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "oltenia-claca",
+      "name": "Sezatoare (claca)",
+      "description": "Collective evening gatherings for work, songs, and stories."
+    }
+  ],
+  "images": [
+    {
+      "id": "oltenia-img-1",
+      "src": "/images/regions/oltenia/main.svg",
+      "alt": "Oltenia inspired decorative folk geometry",
+      "credit": "Placeholder illustration"
+    }
+  ]
+}

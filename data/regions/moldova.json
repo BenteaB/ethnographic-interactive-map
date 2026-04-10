@@ -1,0 +1,35 @@
+{
+  "id": "moldova",
+  "code": "RO-MD",
+  "name": "Moldova",
+  "summary": "Region known for lyrical songs, painted monasteries, and ritual hospitality.",
+  "games": [
+    {
+      "id": "moldova-braulete",
+      "name": "Braulete",
+      "description": "Quick partner dance accompanied by violin and cobza."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "moldova-headscarf",
+      "name": "Ia cu batic ceremonial",
+      "description": "Hand-stitched blouse worn with decorative ceremonial headscarf."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "moldova-colinde",
+      "name": "Colinde de ceata",
+      "description": "Organized caroling groups moving house to house at winter holidays."
+    }
+  ],
+  "images": [
+    {
+      "id": "moldova-img-1",
+      "src": "/images/regions/moldova/main.svg",
+      "alt": "Stylized Moldova folk pattern in blue and red",
+      "credit": "Placeholder illustration"
+    }
+  ]
+}
