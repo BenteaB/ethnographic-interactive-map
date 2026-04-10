@@ -1,8 +1,10 @@
 import type { RegionId } from "@/types/region";
 
+type Coordinate = [number, number];
+
 type Geometry = {
   type: "Polygon";
-  coordinates: number[][][];
+  coordinates: Coordinate[][];
 };
 
 type RegionFeature = {
@@ -31,11 +33,15 @@ export const romaniaGeo: RegionFeatureCollection = {
         type: "Polygon",
         coordinates: [
           [
-            [22.6, 47.6],
-            [24.5, 47.6],
-            [24.5, 48.3],
-            [22.6, 48.3],
-            [22.6, 47.6]
+            [22.62, 47.65],
+            [23.05, 47.55],
+            [23.55, 47.57],
+            [24.15, 47.78],
+            [24.22, 48.05],
+            [23.95, 48.3],
+            [23.35, 48.33],
+            [22.9, 48.15],
+            [22.62, 47.65]
           ]
         ]
       }
@@ -48,11 +54,17 @@ export const romaniaGeo: RegionFeatureCollection = {
         type: "Polygon",
         coordinates: [
           [
-            [26.3, 46.0],
-            [28.8, 46.0],
-            [28.8, 47.9],
-            [26.3, 47.9],
-            [26.3, 46.0]
+            [26.15, 45.85],
+            [26.65, 45.95],
+            [27.55, 46.15],
+            [28.35, 46.6],
+            [28.95, 47.15],
+            [28.8, 47.95],
+            [28.1, 48.2],
+            [27.25, 48.0],
+            [26.55, 47.45],
+            [26.2, 46.7],
+            [26.15, 45.85]
           ]
         ]
       }
@@ -65,11 +77,16 @@ export const romaniaGeo: RegionFeatureCollection = {
         type: "Polygon",
         coordinates: [
           [
-            [22.6, 43.6],
-            [24.9, 43.6],
-            [24.9, 45.2],
-            [22.6, 45.2],
-            [22.6, 43.6]
+            [22.2, 43.7],
+            [23.1, 43.65],
+            [24.0, 43.8],
+            [24.65, 44.2],
+            [24.75, 44.9],
+            [24.35, 45.25],
+            [23.55, 45.2],
+            [22.9, 44.95],
+            [22.35, 44.35],
+            [22.2, 43.7]
           ]
         ]
       }
