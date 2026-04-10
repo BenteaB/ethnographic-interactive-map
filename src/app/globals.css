@@ -15,6 +15,15 @@
   --map-stroke-idle: #9a7a4f;
   --map-fill-active: #d97706;
   --map-fill-idle: #f6e7cb;
+
+  /* Map interaction tokens */
+  --map-weight-selected: 3.5;
+  --map-weight-region: 1.5;
+  --map-weight-hover: 2;
+  --map-weight-idle: 0.6;
+  --map-opacity-selected: 0.75;
+  --map-opacity-region: 0.2;
+  --map-opacity-hover: 0.4;
 }
 
 * {

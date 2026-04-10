@@ -2,7 +2,7 @@
 
 import type { Feature } from "geojson";
 import L, { type Layer, type LatLngBoundsExpression, type PathOptions } from "leaflet";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { GeoJSON, MapContainer, TileLayer, useMapEvents } from "react-leaflet";
 import {
   toEthnographicGeo,
@@ -32,45 +32,45 @@ const romaniaBounds: LatLngBoundsExpression = [
   [48.6, 29.9]
 ];
 
+/**
+ * Pure style generator that relies on CSS variables for design consistency.
+ * This is defined outside the component to avoid unnecessary re-creation.
+ */
 function getFeatureStyle(
   isInSelectedRegion: boolean,
   isSelectedSubzone: boolean,
   isInHoveredRegion: boolean
 ): PathOptions {
-  // If a subzone is explicitly selected, it gets the "active" highlight
   if (isSelectedSubzone) {
     return {
       color: "var(--map-stroke-active)",
-      weight: 3.5,
+      weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-selected")),
       fillColor: "var(--map-fill-active)",
-      fillOpacity: 0.75
+      fillOpacity: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-selected"))
     };
   }
 
-  // If we are in the macro-region of the selection, show a subtle border and light fill
   if (isInSelectedRegion) {
     return {
       color: "var(--map-stroke-active)",
-      weight: 1.5,
+      weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-region")),
       fillColor: "var(--map-fill-idle)",
-      fillOpacity: 0.2
+      fillOpacity: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-region"))
     };
   }
 
-  // Hover effect: only active when NOTHING is selected
   if (isInHoveredRegion) {
     return {
       color: "var(--map-stroke-active)",
-      weight: 2,
+      weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-hover")),
       fillColor: "var(--map-fill-idle)",
-      fillOpacity: 0.4
+      fillOpacity: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-hover"))
     };
   }
 
-  // Default state for unselected, unhovered regions
   return {
     color: "var(--map-stroke-idle)",
-    weight: 0.6,
+    weight: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--map-weight-idle")),
     fillColor: "transparent",
     fillOpacity: 0
   };
@@ -100,6 +100,28 @@ export function LeafletRegionMap({
     };
   }, []);
 
+  /**
+   * Memoize the style function to prevent expensive map-wide recalculations 
+   * unless the relevant selection or hover state actually changes.
+   */
+  const mapStyle = useCallback(
+    (feature: Feature | undefined) => {
+      const props = feature?.properties as RegionFeatureProperties | undefined;
+      if (!props) return getFeatureStyle(false, false, false);
+
+      const isInRegion = props.regionId === selectedRegionId;
+      const isSubzone =
+        isInRegion &&
+        props.county.replaceAll("_", " ") === selectedContext?.county &&
+        props.subzone === selectedContext?.subzone;
+
+      const isHovered = props.regionId === hoveredRegionId;
+
+      return getFeatureStyle(isInRegion, isSubzone, isHovered);
+    },
+    [selectedRegionId, selectedContext, hoveredRegionId]
+  );
+
   return (
     <section className={styles.wrapper} aria-label="Interactive map of Romania regions">
       <MapContainer
@@ -119,21 +141,7 @@ export function LeafletRegionMap({
         {regionGeo ? (
           <GeoJSON
             data={regionGeo}
-            style={(feature) => {
-              const props = feature?.properties as RegionFeatureProperties | undefined;
-              if (!props) return getFeatureStyle(false, false, false);
-
-              const isInRegion = props.regionId === selectedRegionId;
-              const isSubzone =
-                isInRegion &&
-                props.county.replaceAll("_", " ") === selectedContext?.county &&
-                props.subzone === selectedContext?.subzone;
-
-              // Hover logic: only relevant if NO macro-region is currently selected
-              const isHovered = !selectedRegionId && props.regionId === hoveredRegionId;
-
-              return getFeatureStyle(isInRegion, isSubzone, isHovered);
-            }}
+            style={mapStyle}
             onEachFeature={(feature: Feature, layer: Layer) => {
               const { name, regionId, county, subzone } = feature.properties as RegionFeatureProperties;
               const countyLabel = county.replaceAll("_", " ");
