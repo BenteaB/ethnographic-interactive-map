@@ -3,13 +3,16 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import * as Tabs from "@radix-ui/react-tabs";
 import Image from "next/image";
-import type { RegionContent } from "@/types/region";
+import { useEffect, useState } from "react";
+import type { RegionContent, RegionSelectionContext } from "@/types/region";
 import styles from "./RegionPanel.module.css";
 
 type RegionPanelProps = {
   region: RegionContent | null;
+  selectedContext: RegionSelectionContext | null;
   isOpen: boolean;
   onOpenChange: (open: boolean) => void;
+  onClearSelection: () => void;
 };
 
 type Item = { id: string; name: string; description: string };
@@ -42,7 +45,15 @@ const categories: Category[] = [
   { id: "traditions", label: "Traditions" }
 ];
 
-function PanelContent({ region }: { region: RegionContent | null }) {
+function PanelContent({
+  region,
+  selectedContext,
+  onClear
+}: {
+  region: RegionContent | null;
+  selectedContext: RegionSelectionContext | null;
+  onClear: () => void;
+}) {
   if (!region) {
     return (
       <div className={styles.placeholder}>
@@ -55,9 +66,20 @@ function PanelContent({ region }: { region: RegionContent | null }) {
   return (
     <>
       <header className={styles.header}>
-        <p className={styles.code}>{region.code}</p>
+        <div className={styles.headerTop}>
+          <p className={styles.code}>{region.code}</p>
+          <button className={styles.clearButton} onClick={onClear} aria-label="Clear selection">
+            &times; Back to map
+          </button>
+        </div>
         <h2>{region.name}</h2>
         <p>{region.summary}</p>
+        {selectedContext ? (
+          <p className={styles.subzoneMeta}>
+            Subzone: <strong>{selectedContext.subzone}</strong> · County:{" "}
+            <strong>{selectedContext.county}</strong>
+          </p>
+        ) : null}
       </header>
 
       <Tabs.Root defaultValue={categories[0].id} className={styles.tabs}>
@@ -102,30 +124,57 @@ function PanelContent({ region }: { region: RegionContent | null }) {
   );
 }
 
-export function RegionPanel({ region, isOpen, onOpenChange }: RegionPanelProps) {
+export function RegionPanel({
+  region,
+  selectedContext,
+  isOpen,
+  onOpenChange,
+  onClearSelection
+}: RegionPanelProps) {
+  const [isMobileViewport, setIsMobileViewport] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 899px)");
+    const updateViewport = () => setIsMobileViewport(mediaQuery.matches);
+
+    updateViewport();
+    mediaQuery.addEventListener("change", updateViewport);
+    return () => mediaQuery.removeEventListener("change", updateViewport);
+  }, []);
+
   return (
     <>
       <aside className={styles.desktopPanel} aria-label="Region details panel">
-        <PanelContent region={region} />
+        <PanelContent
+          region={region}
+          selectedContext={selectedContext}
+          onClear={onClearSelection}
+        />
       </aside>
 
-      <Dialog.Root open={isOpen} onOpenChange={onOpenChange}>
-        <Dialog.Portal>
-          <Dialog.Overlay className={styles.overlay} />
-          <Dialog.Content className={styles.mobilePanel}>
-            <Dialog.Title className={styles.mobileTitle}>
-              {region?.name ?? "Region details"}
-            </Dialog.Title>
-            <Dialog.Description className={styles.srOnly}>
-              Details about selected ethnographic region.
-            </Dialog.Description>
-            <PanelContent region={region} />
-            <Dialog.Close className={styles.closeButton} aria-label="Close panel">
-              Close
-            </Dialog.Close>
-          </Dialog.Content>
-        </Dialog.Portal>
-      </Dialog.Root>
+      {isMobileViewport ? (
+        <Dialog.Root open={isOpen} onOpenChange={onOpenChange}>
+          <Dialog.Portal>
+            <Dialog.Overlay className={styles.overlay} />
+            <Dialog.Content className={styles.mobilePanel}>
+              <Dialog.Title className={styles.mobileTitle}>
+                {region?.name ?? "Region details"}
+              </Dialog.Title>
+              <Dialog.Description className={styles.srOnly}>
+                Details about selected ethnographic region.
+              </Dialog.Description>
+              <PanelContent
+                region={region}
+                selectedContext={selectedContext}
+                onClear={onClearSelection}
+              />
+              <Dialog.Close className={styles.closeButton} aria-label="Close panel">
+                Close
+              </Dialog.Close>
+            </Dialog.Content>
+          </Dialog.Portal>
+        </Dialog.Root>
+      ) : null}
     </>
   );
 }

@@ -1,0 +1,28 @@
+{
+  "id": "banat",
+  "code": "RO-BN",
+  "name": "Banat",
+  "summary": "Western ethnographic region with mixed influences, formal dances, and ornate festive attire.",
+  "games": [
+    {
+      "id": "banat-braul",
+      "name": "Braul banatean",
+      "description": "Compact group dance with accented rhythm and rotational figures."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "banat-poale",
+      "name": "Costum cu poale largi",
+      "description": "Layered festive costume featuring pleated skirts and richly decorated aprons."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "banat-ruga",
+      "name": "Ruga satului",
+      "description": "Village patron celebration combining liturgy, feast, and traditional dance."
+    }
+  ],
+  "images": []
+}

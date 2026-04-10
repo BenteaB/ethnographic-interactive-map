@@ -1,12 +1,18 @@
-import maramuresRaw from "../../data/regions/maramures.json";
-import moldovaRaw from "../../data/regions/moldova.json";
+import transilvaniaRaw from "../../data/regions/transilvania.json";
+import banatRaw from "../../data/regions/banat.json";
 import olteniaRaw from "../../data/regions/oltenia.json";
+import munteniaRaw from "../../data/regions/muntenia.json";
+import moldovaRaw from "../../data/regions/moldova.json";
+import dobrogeaRaw from "../../data/regions/dobrogea.json";
 import { regionContentSchema, type RegionContent, type RegionId } from "@/types/region";
 
 const rawData: Record<RegionId, unknown> = {
-  maramures: maramuresRaw,
+  transilvania: transilvaniaRaw,
+  banat: banatRaw,
+  oltenia: olteniaRaw,
+  muntenia: munteniaRaw,
   moldova: moldovaRaw,
-  oltenia: olteniaRaw
+  dobrogea: dobrogeaRaw
 };
 
 const regionsById = Object.fromEntries(

@@ -1,6 +1,13 @@
 import { z } from "zod";
 
-export const regionIds = ["maramures", "moldova", "oltenia"] as const;
+export const regionIds = [
+  "transilvania",
+  "banat",
+  "oltenia",
+  "muntenia",
+  "moldova",
+  "dobrogea"
+] as const;
 export type RegionId = (typeof regionIds)[number];
 
 export const regionItemSchema = z.object({
@@ -30,3 +37,8 @@ export const regionContentSchema = z.object({
 export type RegionItem = z.infer<typeof regionItemSchema>;
 export type MediaAsset = z.infer<typeof mediaAssetSchema>;
 export type RegionContent = z.infer<typeof regionContentSchema>;
+
+export type RegionSelectionContext = {
+  county: string;
+  subzone: string;
+};

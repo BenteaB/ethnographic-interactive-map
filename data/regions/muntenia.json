@@ -1,0 +1,28 @@
+{
+  "id": "muntenia",
+  "code": "RO-MU",
+  "name": "Muntenia",
+  "summary": "Southern ethnographic region with strong fair culture, ritual songs, and varied local attire.",
+  "games": [
+    {
+      "id": "muntenia-geamparale",
+      "name": "Geamparale",
+      "description": "Fast paired dance style performed at weddings and community events."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "muntenia-fota",
+      "name": "Ie cu fota",
+      "description": "Traditional blouse matched with wrapped woven skirt and decorated belt."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "muntenia-dragobete",
+      "name": "Dragobete",
+      "description": "Spring-associated social custom linked to courtship and seasonal renewal."
+    }
+  ],
+  "images": []
+}

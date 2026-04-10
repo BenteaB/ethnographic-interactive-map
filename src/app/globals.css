@@ -9,6 +9,12 @@
   --radius-sm: 0.35rem;
   --radius-md: 0.6rem;
   --radius-lg: 0.9rem;
+
+  /* Map theme */
+  --map-stroke-active: #92400e;
+  --map-stroke-idle: #9a7a4f;
+  --map-fill-active: #d97706;
+  --map-fill-idle: #f6e7cb;
 }
 
 * {
