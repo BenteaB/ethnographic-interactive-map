@@ -10,13 +10,14 @@ import {
   type RegionFeatureCollection,
   type RegionFeatureProperties
 } from "@/lib/romaniaGeo";
-import type { RegionId, RegionSelectionContext } from "@/types/region";
+import type { RegionId as EthnographicRegionId } from "@/types/region"; 
+import type { RegionSelectionContext } from "@/types/region"; 
 import styles from "./Map.module.css";
 
 type RegionMapProps = {
-  selectedRegionId: RegionId | null;
+  selectedRegionId: EthnographicRegionId | null;
   selectedContext: RegionSelectionContext | null;
-  onSelectRegion: (regionId: RegionId, context: RegionSelectionContext) => void;
+  onSelectRegion: (regionId: EthnographicRegionId, context: RegionSelectionContext) => void;
   onClearSelection: () => void;
 };
 
@@ -97,7 +98,19 @@ export function LeafletRegionMap({
   onClearSelection
 }: RegionMapProps) {
   const [regionGeo, setRegionGeo] = useState<RegionFeatureCollection | null>(null);
-  const [hoveredRegionId, setHoveredRegionId] = useState<RegionId | null>(null);
+  const [hoveredRegionId, setHoveredRegionId] = useState<EthnographicRegionId | null>(null);
+  const [isNarrowScreen, setIsNarrowScreen] = useState(false); // State to track screen width
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 899px)"); // Matches the breakpoint from CSS
+    const updateViewport = () => setIsNarrowScreen(mediaQuery.matches);
+
+    updateViewport(); // Set initial state
+    mediaQuery.addEventListener("change", updateViewport); // Listen for changes
+
+    // Correct cleanup: removeEventListener expects the exact same event type and listener function
+    return () => mediaQuery.removeEventListener("change", updateViewport); 
+  }, []);
 
   useEffect(() => {
     let isMounted = true;
@@ -121,7 +134,9 @@ export function LeafletRegionMap({
   const mapStyle = useCallback(
     (feature: Feature | undefined) => {
       const props = feature?.properties as RegionFeatureProperties | undefined;
-      if (!props) return getFeatureStyle(false, false, false);
+      if (!props || props.regionId === "unmapped") {
+        return getFeatureStyle(false, false, false);
+      }
 
       const isInRegion = props.regionId === selectedRegionId;
       const isSubzone =
@@ -146,6 +161,7 @@ export function LeafletRegionMap({
         maxZoom={9}
         maxBounds={romaniaBounds}
         zoomControl
+        scrollWheelZoom={!isNarrowScreen} // Conditionally enable/disable zoom
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -157,27 +173,33 @@ export function LeafletRegionMap({
             data={regionGeo}
             style={mapStyle}
             onEachFeature={(feature: Feature, layer: Layer) => {
-              const { name, regionId, county, subzone } =
-                feature.properties as RegionFeatureProperties;
-              const countyLabel = county.replaceAll("_", " ");
+              const props = feature.properties as RegionFeatureProperties;
+              
+              if (props.regionId !== "unmapped") {
+                const { name, regionId, county, subzone } = props;
+                const countyLabel = county.replaceAll("_", " ");
 
-              layer.bindTooltip(`${name} - ${subzone} (${countyLabel})`, {
-                direction: "center",
-                permanent: false,
-                sticky: true
-              });
+                layer.bindTooltip(`${name} - ${subzone} (${countyLabel})`, {
+                  direction: "center",
+                  permanent: false,
+                  sticky: true
+                });
 
-              layer.on({
-                click: (e) => {
-                  L.DomEvent.stopPropagation(e);
-                  onSelectRegion(regionId, {
-                    county: countyLabel,
-                    subzone
-                  });
-                },
-                mouseover: () => setHoveredRegionId(regionId),
-                mouseout: () => setHoveredRegionId(null)
-              });
+                layer.on({
+                  click: (e) => {
+                    L.DomEvent.stopPropagation(e);
+                    onSelectRegion(regionId, {
+                      county: countyLabel,
+                      subzone
+                    });
+                  },
+                  mouseover: () => setHoveredRegionId(regionId),
+                  mouseout: () => setHoveredRegionId(null)
+                });
+              } else {
+                layer.off("click mouseover mouseout");
+                layer.bindTooltip("Unmapped region", { direction: "center", permanent: false, sticky: true });
+              }
             }}
           />
         ) : null}

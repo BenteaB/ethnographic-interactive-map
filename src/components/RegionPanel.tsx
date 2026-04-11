@@ -1,17 +1,13 @@
 "use client";
 
-import * as Dialog from "@radix-ui/react-dialog";
 import * as Tabs from "@radix-ui/react-tabs";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import type { RegionContent, RegionSelectionContext } from "@/types/region";
 import styles from "./RegionPanel.module.css";
 
 type RegionPanelProps = {
   region: RegionContent | null;
   selectedContext: RegionSelectionContext | null;
-  isOpen: boolean;
-  onOpenChange: (open: boolean) => void;
   onClearSelection: () => void;
 };
 
@@ -130,54 +126,15 @@ function PanelContent({
 export function RegionPanel({
   region,
   selectedContext,
-  isOpen,
-  onOpenChange,
   onClearSelection
 }: RegionPanelProps) {
-  const [isMobileViewport, setIsMobileViewport] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 899px)");
-    const updateViewport = () => setIsMobileViewport(mediaQuery.matches);
-
-    updateViewport();
-    mediaQuery.addEventListener("change", updateViewport);
-    return () => mediaQuery.removeEventListener("change", updateViewport);
-  }, []);
-
   return (
-    <>
-      <aside className={styles.desktopPanel} aria-label="Region details panel">
-        <PanelContent
-          region={region}
-          selectedContext={selectedContext}
-          onClear={onClearSelection}
-        />
-      </aside>
-
-      {isMobileViewport ? (
-        <Dialog.Root open={isOpen} onOpenChange={onOpenChange}>
-          <Dialog.Portal>
-            <Dialog.Overlay className={styles.overlay} />
-            <Dialog.Content className={styles.mobilePanel}>
-              <Dialog.Title className={styles.mobileTitle}>
-                {region?.name ?? "Region details"}
-              </Dialog.Title>
-              <Dialog.Description className={styles.srOnly}>
-                Details about selected ethnographic region.
-              </Dialog.Description>
-              <PanelContent
-                region={region}
-                selectedContext={selectedContext}
-                onClear={onClearSelection}
-              />
-              <Dialog.Close className={styles.closeButton} aria-label="Close panel">
-                Close
-              </Dialog.Close>
-            </Dialog.Content>
-          </Dialog.Portal>
-        </Dialog.Root>
-      ) : null}
-    </>
+    <aside className={styles.panel} aria-label="Region details panel">
+      <PanelContent
+        region={region}
+        selectedContext={selectedContext}
+        onClear={onClearSelection}
+      />
+    </aside>
   );
 }

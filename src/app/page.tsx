@@ -10,7 +10,6 @@ import styles from "./page.module.css";
 export default function HomePage() {
   const [selectedRegionId, setSelectedRegionId] = useState<RegionId | null>(null);
   const [selectedContext, setSelectedContext] = useState<RegionSelectionContext | null>(null);
-  const [mobilePanelOpen, setMobilePanelOpen] = useState(false);
 
   const selectedRegion: RegionContent | null = useMemo(() => {
     if (!selectedRegionId) return null;
@@ -30,16 +29,11 @@ export default function HomePage() {
 
     setSelectedRegionId(regionId);
     setSelectedContext(context);
-    // Only open the modal panel on mobile layouts.
-    if (window.matchMedia("(max-width: 899px)").matches) {
-      setMobilePanelOpen(true);
-    }
   }
 
   function handleClearSelection() {
     setSelectedRegionId(null);
     setSelectedContext(null);
-    setMobilePanelOpen(false);
   }
 
   return (
@@ -65,8 +59,6 @@ export default function HomePage() {
           <RegionPanel
             region={selectedRegion}
             selectedContext={selectedContext}
-            isOpen={mobilePanelOpen}
-            onOpenChange={setMobilePanelOpen}
             onClearSelection={handleClearSelection}
           />
         </div>
