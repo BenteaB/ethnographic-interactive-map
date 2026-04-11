@@ -1,8 +1,10 @@
 import type { FeatureCollection, MultiPolygon, Polygon } from "geojson";
-import type { RegionId } from "@/types/region";
+import type { RegionId as EthnographicRegionId } from "@/types/region"; // Alias to avoid conflict
+
+export type RegionId = EthnographicRegionId | "unmapped"; // Union type including "unmapped"
 
 export type RegionFeatureProperties = {
-  regionId: RegionId;
+  regionId: RegionId; // Use the union type
   name: string;
   county: string;
   subzone: string;
@@ -22,7 +24,7 @@ export type CountyFeatureCollection = FeatureCollection<
 >;
 
 type RegionMeta = {
-  regionId: RegionId;
+  regionId: EthnographicRegionId; // Keep original type here
   name: string;
   subzone: string;
 };
@@ -32,6 +34,7 @@ export type RegionFeatureCollection = FeatureCollection<
   RegionFeatureProperties
 >;
 
+// Mapping of normalized county names to ethnographic regions.
 export const countyToRegion: Record<string, RegionMeta> = {
   ALBA: { regionId: "transilvania", name: "Transilvania", subzone: "Podisul Tarnavelor" },
   ARAD: { regionId: "transilvania", name: "Transilvania", subzone: "Crisana (Campia Aradului)" },
@@ -97,30 +100,52 @@ export const countyToRegion: Record<string, RegionMeta> = {
   VRANCEA: { regionId: "moldova", name: "Moldova", subzone: "Putna si Valea Zabalei" }
 };
 
+/**
+ * Normalizes a county name to a consistent format for matching against the map data.
+ * This involves:
+ * 1. Removing diacritics (e.g., 'ă', 'â', 'î', 'ș', 'ț').
+ * 2. Converting to uppercase.
+ * 3. Replacing sequences of non-alphanumeric characters with a single underscore.
+ * 4. Trimming leading/trailing underscores.
+ *
+ * @param {string} value - The county name to normalize.
+ * @returns {string} The normalized county name.
+ */
 function normalizeCountyName(value: string): string {
   return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toUpperCase()
-    .replace(/[^A-Z0-9]+/g, "_")
-    .replace(/^_+|_+$/g, "");
+    .normalize("NFD") // Decompose characters (e.g., 'ă' -> 'a' + '◌̃')
+    .replace(/[\u0300-\u036f]/g, "") // Remove diacritical marks
+    .toUpperCase() // Convert to uppercase
+    .replace(/[^A-Z0-9]+/g, "_") // Replace sequences of non-alphanumeric chars with a single underscore
+    .replace(/^_+|_+$/g, ""); // Trim leading/trailing underscores
 }
 
 export function toEthnographicGeo(countyGeo: CountyFeatureCollection): RegionFeatureCollection {
   return {
     type: "FeatureCollection",
     features: countyGeo.features.map((feature) => {
-      const county = feature.properties.shapeName;
-      const region = countyToRegion[normalizeCountyName(county)];
+      const normalizedCountyName = normalizeCountyName(feature.properties.shapeName);
+      const region = countyToRegion[normalizedCountyName];
+      
       if (!region) {
-        throw new Error(`County is not mapped to an ethnographic region: ${county}`);
+        console.warn(`County "${feature.properties.shapeName}" (normalized: "${normalizedCountyName}") is not mapped to an ethnographic region.`);
+        return {
+          ...feature,
+          properties: {
+            regionId: "unmapped", // This assignment is now type-safe
+            name: "Unknown Region",
+            county: feature.properties.shapeName,
+            subzone: "N/A"
+          }
+        };
       }
+      
       return {
         ...feature,
         properties: {
-          regionId: region.regionId,
+          regionId: region.regionId, // This is an EthnographicRegionId
           name: region.name,
-          county,
+          county: feature.properties.shapeName, 
           subzone: region.subzone
         }
       };
