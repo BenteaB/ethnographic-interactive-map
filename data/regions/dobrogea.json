@@ -1,0 +1,28 @@
+{
+  "id": "dobrogea",
+  "code": "RO-DB",
+  "name": "Dobrogea",
+  "summary": "Danube-Black Sea ethnographic area marked by multicultural traditions and coastal-inland exchanges.",
+  "games": [
+    {
+      "id": "dobrogea-hora",
+      "name": "Hora dobrogeana",
+      "description": "Circle dance adapted to mixed local repertoires from delta and steppe settlements."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "dobrogea-costum",
+      "name": "Port dobrogean",
+      "description": "Regional festive dress combining Balkan, Anatolian, and Romanian textile elements."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "dobrogea-pescareasca",
+      "name": "Ritualuri pescaresti",
+      "description": "Seasonal blessings and communal customs linked to fishing communities."
+    }
+  ],
+  "images": []
+}

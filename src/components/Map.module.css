@@ -2,34 +2,30 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   background: var(--color-surface);
-  padding: 0.75rem;
+  padding: 0.5rem;
+  overflow: hidden;
 }
 
-.map {
+.leafletMap {
   width: 100%;
-  height: auto;
+  height: clamp(420px, 62vh, 680px);
+  border-radius: calc(var(--radius-lg) - 0.2rem);
 }
 
-.geography {
+.leafletMap :global(.leaflet-interactive) {
   cursor: pointer;
-  stroke: #9a7a4f;
-  stroke-width: 2;
-  outline: none;
-  transition: fill 120ms ease-in-out;
+  transition: fill-opacity 120ms ease-in-out;
 }
 
-.geography:hover {
-  fill: #f59e0b;
+.leafletMap :global(.leaflet-control-zoom a) {
+  border-radius: 0;
 }
 
-.geography:focus-visible {
-  stroke: #1f2937;
-  stroke-width: 4;
-}
-
-.markerText {
-  font-size: 0.55rem;
-  fill: #4b5563;
-  text-transform: capitalize;
-  pointer-events: none;
+.leafletMap :global(.leaflet-tooltip) {
+  background: rgba(17, 24, 39, 0.9);
+  border: 0;
+  color: #f9fafb;
+  border-radius: 0.4rem;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.78rem;
 }

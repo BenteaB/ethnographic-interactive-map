@@ -1,0 +1,28 @@
+{
+  "id": "bucovina",
+  "code": "RO-BV",
+  "name": "Bucovina",
+  "summary": "Northern ethnographic area known for painted monasteries, ritual songs, and finely stitched shirts.",
+  "games": [
+    {
+      "id": "bucovina-arcanul",
+      "name": "Arcanul",
+      "description": "Energetic line dance from village festivities in the Bucovina area."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "bucovina-camasa",
+      "name": "Camasa cu alti\u021ba",
+      "description": "Traditional shirt with shoulder embroidery and rich geometric motifs."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "bucovina-colindat",
+      "name": "Colindatul de ceata",
+      "description": "Group caroling and ritual visits during the winter festive cycle."
+    }
+  ],
+  "images": []
+}

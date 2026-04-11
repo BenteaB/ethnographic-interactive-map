@@ -1,0 +1,28 @@
+{
+  "id": "transilvania",
+  "code": "RO-TR",
+  "name": "Transilvania",
+  "summary": "Large central ethnographic space with diverse village styles, dances, and ceremonial clothing.",
+  "games": [
+    {
+      "id": "transilvania-fecioreasca",
+      "name": "Fecioreasca",
+      "description": "Men's virtuoso dance with rhythmic stamps and turning sequences."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "transilvania-suman",
+      "name": "Suman si pieptar",
+      "description": "Wool coat and sheepskin vest combinations specific to mountain and plateau communities."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "transilvania-nedeie",
+      "name": "Nedeie",
+      "description": "Seasonal fair and communal gathering tied to pastoral and religious calendars."
+    }
+  ],
+  "images": []
+}

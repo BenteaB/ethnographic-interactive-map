@@ -1,21 +1,23 @@
-import maramuresRaw from "../../data/regions/maramures.json";
-import moldovaRaw from "../../data/regions/moldova.json";
+import transilvaniaRaw from "../../data/regions/transilvania.json";
+import banatRaw from "../../data/regions/banat.json";
 import olteniaRaw from "../../data/regions/oltenia.json";
-import {
-  regionContentSchema,
-  type RegionContent,
-  type RegionId
-} from "@/types/region";
+import munteniaRaw from "../../data/regions/muntenia.json";
+import moldovaRaw from "../../data/regions/moldova.json";
+import dobrogeaRaw from "../../data/regions/dobrogea.json";
+import { regionContentSchema, type RegionContent, type RegionId } from "@/types/region";
 
-function parseRegion(data: unknown): RegionContent {
-  return regionContentSchema.parse(data);
-}
-
-const regionsById: Record<RegionId, RegionContent> = {
-  maramures: parseRegion(maramuresRaw),
-  moldova: parseRegion(moldovaRaw),
-  oltenia: parseRegion(olteniaRaw)
+const rawData: Record<RegionId, unknown> = {
+  transilvania: transilvaniaRaw,
+  banat: banatRaw,
+  oltenia: olteniaRaw,
+  muntenia: munteniaRaw,
+  moldova: moldovaRaw,
+  dobrogea: dobrogeaRaw
 };
+
+const regionsById = Object.fromEntries(
+  Object.entries(rawData).map(([id, data]) => [id, regionContentSchema.parse(data)])
+) as Record<RegionId, RegionContent>;
 
 export function getRegionContent(regionId: RegionId): RegionContent {
   return regionsById[regionId];

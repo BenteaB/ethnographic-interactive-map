@@ -1,3 +1,5 @@
+@import "leaflet/dist/leaflet.css";
+
 :root {
   --color-bg: #f8f5ef;
   --color-surface: #fffdf9;
@@ -7,6 +9,21 @@
   --radius-sm: 0.35rem;
   --radius-md: 0.6rem;
   --radius-lg: 0.9rem;
+
+  /* Map theme */
+  --map-stroke-active: #92400e;
+  --map-stroke-idle: #9a7a4f;
+  --map-fill-active: #d97706;
+  --map-fill-idle: #f6e7cb;
+
+  /* Map interaction tokens */
+  --map-weight-selected: 3.5;
+  --map-weight-region: 1.5;
+  --map-weight-hover: 2;
+  --map-weight-idle: 0.6;
+  --map-opacity-selected: 0.75;
+  --map-opacity-region: 0.2;
+  --map-opacity-hover: 0.4;
 }
 
 * {

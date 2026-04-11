@@ -1,33 +1,14 @@
 import { z } from "zod";
 
-export const regionIds = ["maramures", "moldova", "oltenia"] as const;
+export const regionIds = [
+  "transilvania",
+  "banat",
+  "oltenia",
+  "muntenia",
+  "moldova",
+  "dobrogea"
+] as const;
 export type RegionId = (typeof regionIds)[number];
-
-export type RegionCode = "RO-MM" | "RO-MD" | "RO-OT";
-
-export interface RegionItem {
-  id: string;
-  name: string;
-  description: string;
-}
-
-export interface MediaAsset {
-  id: string;
-  src: string;
-  alt: string;
-  credit?: string;
-}
-
-export interface RegionContent {
-  id: RegionId;
-  code: RegionCode;
-  name: string;
-  summary: string;
-  games: RegionItem[];
-  costumes: RegionItem[];
-  traditions: RegionItem[];
-  images: MediaAsset[];
-}
 
 export const regionItemSchema = z.object({
   id: z.string().min(1),
@@ -44,7 +25,7 @@ export const mediaAssetSchema = z.object({
 
 export const regionContentSchema = z.object({
   id: z.enum(regionIds),
-  code: z.enum(["RO-MM", "RO-MD", "RO-OT"]),
+  code: z.string().min(1),
   name: z.string().min(1),
   summary: z.string().min(1),
   games: z.array(regionItemSchema).default([]),
@@ -52,3 +33,12 @@ export const regionContentSchema = z.object({
   traditions: z.array(regionItemSchema).default([]),
   images: z.array(mediaAssetSchema).default([])
 });
+
+export type RegionItem = z.infer<typeof regionItemSchema>;
+export type MediaAsset = z.infer<typeof mediaAssetSchema>;
+export type RegionContent = z.infer<typeof regionContentSchema>;
+
+export type RegionSelectionContext = {
+  county: string;
+  subzone: string;
+};
