@@ -43,19 +43,19 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "transilvania",
     name: "Transilvania",
     subzone: "Podisul Tarnavelor",
-    historicalRegion: "Ţara Moţilor şi Podişul Târnavelor"
+    historicalRegion: "Ţara Moţilor"
   },
   ARAD: {
     regionId: "transilvania",
     name: "Transilvania",
     subzone: "Crisana (Campia Aradului)",
-    historicalRegion: "Câmpia Aradului"
+    historicalRegion: "Câmpia Timişului şi Câmpia Aradului"
   },
   ARGES: {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Arges si Muscel",
-    historicalRegion: "Muscelele Argeşului şi Culoarul Bran"
+    historicalRegion: "Bran"
   },
   BACAU: {
     regionId: "moldova",
@@ -67,7 +67,7 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "transilvania",
     name: "Transilvania",
     subzone: "Crisana",
-    historicalRegion: "Crişana"
+    historicalRegion: "Câmpia Timişului şi Câmpia Aradului"
   },
   BISTRITA_NASAUD: {
     regionId: "transilvania",
@@ -79,55 +79,55 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "moldova",
     name: "Moldova",
     subzone: "Campia Moldovei de Nord",
-    historicalRegion: "Câmpia Moldovei de Nord"
+    historicalRegion: "Moldova de Nord"
   },
   BRAILA: {
     regionId: "moldova",
     name: "Moldova",
     subzone: "Campia Brailei",
-    historicalRegion: "Câmpia Brăilei"
+    historicalRegion: "Sudul Munteniei"
   },
   BRASOV: {
     regionId: "transilvania",
     name: "Transilvania",
     subzone: "Tara Barsei",
-    historicalRegion: "Bran şi Ţara Făgăraşului"
+    historicalRegion: "Ţara Făgăraşului"
   },
   BUCURESTI: {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Bucuresti si imprejurimi",
-    historicalRegion: "Sudul Munteniei (Vlaşca)"
+    historicalRegion: "Sudul Munteniei"
   },
   BUZAU: {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Subzona Buzaului",
-    historicalRegion: "Subcarpatii Buzăului"
+    historicalRegion: "Valea Prahovei"
   },
   CALARASI: {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Campia Dunarii (Baragan)",
-    historicalRegion: "Bărăgan"
+    historicalRegion: "Sudul Munteniei"
   },
   CARAS_SEVERIN: {
     regionId: "banat",
     name: "Banat",
     subzone: "Almajului si Portile de Fier",
-    historicalRegion: "Banatul Montan"
+    historicalRegion: "Câmpia Timişului şi Câmpia Aradului"
   },
   CLUJ: {
     regionId: "transilvania",
     name: "Transilvania",
     subzone: "Dealurile Clujului",
-    historicalRegion: "Dealurile Clujului şi Ţara Moţilor"
+    historicalRegion: "Dealurile Clujului"
   },
   CONSTANTA: {
     regionId: "dobrogea",
     name: "Dobrogea",
     subzone: "Litoralul Dobrogean",
-    historicalRegion: "Dobrogea de Sud"
+    historicalRegion: "Tulcea şi Delta Dunării"
   },
   COVASNA: {
     regionId: "transilvania",
@@ -139,7 +139,7 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Subzona Dambovitei",
-    historicalRegion: "Subcarpatii Dâmboviţei"
+    historicalRegion: "Muscelele Argeşului"
   },
   DOLJ: {
     regionId: "oltenia",
@@ -151,13 +151,13 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "moldova",
     name: "Moldova",
     subzone: "Campia Dunarii de Est",
-    historicalRegion: "Câmpia Dunării de Est"
+    historicalRegion: "Moldova Centrală"
   },
   GIURGIU: {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Campia Dunarii (Vlasca)",
-    historicalRegion: "Sudul Munteniei (Vlaşca)"
+    historicalRegion: "Sudul Munteniei"
   },
   GORJ: {
     regionId: "oltenia",
@@ -181,19 +181,19 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Baragan (Campia Romana)",
-    historicalRegion: "Bărăgan"
+    historicalRegion: "Sudul Munteniei"
   },
   IASI: {
     regionId: "moldova",
     name: "Moldova",
     subzone: "Depresiunea Jijiei si Cotnari",
-    historicalRegion: "Depresiunea Jijiei"
+    historicalRegion: "Moldova Centrală"
   },
   ILFOV: {
     regionId: "muntenia",
     name: "Muntenia",
     subzone: "Campia Bucurestiului",
-    historicalRegion: "Sudul Munteniei (Vlaşca)"
+    historicalRegion: "Sudul Munteniei"
   },
   MARAMURES: {
     regionId: "transilvania",
@@ -205,7 +205,7 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "oltenia",
     name: "Oltenia",
     subzone: "Plaiul Closani si Clisura Dunarii",
-    historicalRegion: "Oltenia de Vest"
+    historicalRegion: "Câmpia Olteniei"
   },
   MURES: {
     regionId: "transilvania",
@@ -223,7 +223,7 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "oltenia",
     name: "Oltenia",
     subzone: "Romanati",
-    historicalRegion: "Câmpia Olteniei (Romănaţi)"
+    historicalRegion: "Câmpia Olteniei"
   },
   PRAHOVA: {
     regionId: "muntenia",
@@ -235,7 +235,7 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "transilvania",
     name: "Transilvania",
     subzone: "Codrul Salajului si Silvania",
-    historicalRegion: "Dealurile Clujului (Silvania)"
+    historicalRegion: "Dealurile Clujului"
   },
   SATU_MARE: {
     regionId: "transilvania",
@@ -247,13 +247,13 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "transilvania",
     name: "Transilvania",
     subzone: "Marginimea Sibiului si Tara Oltului",
-    historicalRegion: "Mărginimea Sibiului şi Ţara Făgăraşului"
+    historicalRegion: "Mărginimea Sibiului"
   },
   SUCEAVA: {
     regionId: "moldova",
     name: "Moldova",
     subzone: "Bucovina istorica",
-    historicalRegion: "Obcinele Sucevei (Bucovina)"
+    historicalRegion: "Obcinele Sucevei"
   },
   TELEORMAN: {
     regionId: "muntenia",
@@ -265,7 +265,7 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "banat",
     name: "Banat",
     subzone: "Campia Banatului",
-    historicalRegion: "Câmpia Timişului"
+    historicalRegion: "Câmpia Timişului şi Câmpia Aradului"
   },
   TULCEA: {
     regionId: "dobrogea",
@@ -277,13 +277,13 @@ export const countyToRegion: Record<string, RegionMeta> = {
     regionId: "oltenia",
     name: "Oltenia",
     subzone: "Subzona Valcii si Tara Lovistei",
-    historicalRegion: "Vâlcea (Ţara Loviştei)"
+    historicalRegion: "Vâlcea"
   },
   VASLUI: {
     regionId: "moldova",
     name: "Moldova",
     subzone: "Colinele Tutovei",
-    historicalRegion: "Colinele Tutovei"
+    historicalRegion: "Moldova Centrală"
   },
   VRANCEA: {
     regionId: "moldova",

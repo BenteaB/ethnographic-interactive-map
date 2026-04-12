@@ -162,6 +162,7 @@ export function LeafletRegionMap({
         <MapEvents onClear={onClearSelection} />
         {regionGeo ? (
           <GeoJSON
+            key={`geo-${hoveredHistoricalRegion}-${selectedContext?.subzone}`}
             data={regionGeo}
             style={mapStyle}
             onEachFeature={(feature: Feature, layer: Layer) => {
