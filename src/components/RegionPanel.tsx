@@ -75,7 +75,7 @@ function PanelContent({
         <p>{region.summary}</p>
         {selectedContext ? (
           <p className={styles.subzoneMeta}>
-            Subzone: <strong>{selectedContext.subzone}</strong> · County:{" "}
+            Historical Region: <strong>{selectedContext.subzone}</strong> · County:{" "}
             <strong>{selectedContext.county}</strong>
           </p>
         ) : null}

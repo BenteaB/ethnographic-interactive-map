@@ -139,10 +139,10 @@ export function LeafletRegionMap({
       }
 
       const isInRegion = props.regionId === selectedRegionId;
+      // Highlight based on historicalRegion to group counties that belong to the same historical zone
       const isSubzone =
         isInRegion &&
-        props.county.replaceAll("_", " ") === selectedContext?.county &&
-        props.subzone === selectedContext?.subzone;
+        props.historicalRegion === selectedContext?.subzone;
 
       const isHovered = props.regionId === hoveredRegionId;
 
@@ -176,21 +176,24 @@ export function LeafletRegionMap({
               const props = feature.properties as RegionFeatureProperties;
               
               if (props.regionId !== "unmapped") {
-                const { name, regionId, county, subzone } = props;
+                const { name, regionId, county, historicalRegion } = props;
                 const countyLabel = county.replaceAll("_", " ");
 
-                layer.bindTooltip(`${name} - ${subzone} (${countyLabel})`, {
+                // Prioritize Historical Region in tooltip
+                layer.bindTooltip(`<strong>${historicalRegion}</strong><br/>${name} (${countyLabel})`, {
                   direction: "center",
                   permanent: false,
-                  sticky: true
+                  sticky: true,
+                  className: styles.mapTooltip
                 });
 
                 layer.on({
                   click: (e) => {
                     L.DomEvent.stopPropagation(e);
+                    // Pass historicalRegion as the subzone to ensure grouping works
                     onSelectRegion(regionId, {
                       county: countyLabel,
-                      subzone
+                      subzone: historicalRegion
                     });
                   },
                   mouseover: () => setHoveredRegionId(regionId),
