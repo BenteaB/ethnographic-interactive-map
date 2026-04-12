@@ -38,54 +38,44 @@ const romaniaBounds: LatLngBoundsExpression = [
  * This is defined outside the component to avoid unnecessary re-creation.
  */
 function getFeatureStyle(
-  isInSelectedRegion: boolean,
-  isSelectedSubzone: boolean,
-  isInHoveredRegion: boolean
+  isInMacroRegion: boolean,
+  isHistoricalSelected: boolean,
+  isHistoricalHovered: boolean
 ): PathOptions {
-  if (isSelectedSubzone) {
+  // Priority 1: Selected Historical Region
+  if (isHistoricalSelected) {
     return {
       color: "var(--map-stroke-active)",
-      weight: Number.parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--map-weight-selected")
-      ),
+      weight: 3,
       fillColor: "var(--map-fill-active)",
-      fillOpacity: Number.parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-selected")
-      )
+      fillOpacity: 0.8
     };
   }
 
-  if (isInSelectedRegion) {
+  // Priority 2: Hovered Historical Region
+  if (isHistoricalHovered) {
     return {
       color: "var(--map-stroke-active)",
-      weight: Number.parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--map-weight-region")
-      ),
+      weight: 2,
       fillColor: "var(--map-fill-idle)",
-      fillOpacity: Number.parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-region")
-      )
+      fillOpacity: 0.6
     };
   }
 
-  if (isInHoveredRegion) {
+  // Priority 3: Macro-region (Transilvania, etc.) - show boundaries but no fill
+  if (isInMacroRegion) {
     return {
-      color: "var(--map-stroke-active)",
-      weight: Number.parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--map-weight-hover")
-      ),
+      color: "var(--map-stroke-idle)",
+      weight: 1.5,
       fillColor: "var(--map-fill-idle)",
-      fillOpacity: Number.parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--map-opacity-hover")
-      )
+      fillOpacity: 0.1
     };
   }
 
+  // Default: Inactive/Unrelated
   return {
-    color: "var(--map-stroke-idle)",
-    weight: Number.parseFloat(
-      getComputedStyle(document.documentElement).getPropertyValue("--map-weight-idle")
-    ),
+    color: "var(--color-border)",
+    weight: 0.5,
     fillColor: "transparent",
     fillOpacity: 0
   };
@@ -99,6 +89,7 @@ export function LeafletRegionMap({
 }: RegionMapProps) {
   const [regionGeo, setRegionGeo] = useState<RegionFeatureCollection | null>(null);
   const [hoveredRegionId, setHoveredRegionId] = useState<EthnographicRegionId | null>(null);
+  const [hoveredHistoricalRegion, setHoveredHistoricalRegion] = useState<string | null>(null);
   const [isNarrowScreen, setIsNarrowScreen] = useState(false); // State to track screen width
 
   useEffect(() => {
@@ -138,17 +129,18 @@ export function LeafletRegionMap({
         return getFeatureStyle(false, false, false);
       }
 
-      const isInRegion = props.regionId === selectedRegionId;
-      // Highlight based on historicalRegion to group counties that belong to the same historical zone
-      const isSubzone =
-        isInRegion &&
-        props.historicalRegion === selectedContext?.subzone;
+      // 1. Is it part of the currently selected historical region?
+      const isSelectedHistorical = props.historicalRegion === selectedContext?.subzone;
 
-      const isHovered = props.regionId === hoveredRegionId;
+      // 2. Is it part of the currently hovered historical region?
+      const isHoveredHistorical = props.historicalRegion === hoveredHistoricalRegion;
 
-      return getFeatureStyle(isInRegion, isSubzone, isHovered);
+      // 3. Is it part of the macro-region (Transilvania, etc.)?
+      const isInMacroRegion = props.regionId === selectedRegionId || props.regionId === hoveredRegionId;
+
+      return getFeatureStyle(isInMacroRegion, isSelectedHistorical, isHoveredHistorical);
     },
-    [selectedRegionId, selectedContext, hoveredRegionId]
+    [selectedRegionId, selectedContext, hoveredRegionId, hoveredHistoricalRegion]
   );
 
   return (
@@ -196,8 +188,14 @@ export function LeafletRegionMap({
                       subzone: historicalRegion
                     });
                   },
-                  mouseover: () => setHoveredRegionId(regionId),
-                  mouseout: () => setHoveredRegionId(null)
+                  mouseover: () => {
+                    setHoveredRegionId(regionId);
+                    setHoveredHistoricalRegion(historicalRegion);
+                  },
+                  mouseout: () => {
+                    setHoveredRegionId(null);
+                    setHoveredHistoricalRegion(null);
+                  }
                 });
               } else {
                 layer.off("click mouseover mouseout");
