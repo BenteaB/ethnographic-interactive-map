@@ -5,27 +5,32 @@ description: Analyzes code for LLM smells, prioritizes simplicity and scalabilit
 
 # Review Changes Skill
 
-This skill is designed to review code changes from the perspective of a senior engineer, focusing on simplicity, scalability, and identifying potential LLM-specific issues ("LLM smells") or areas of redundancy.
+This skill is designed to review code changes like a senior engineer, prioritizing simplicity, surgical edits, and identifying "LLM smells" or redundant code. It follows the principles from [Andrej Karpathy's skills guide](https://github.com/forrestchang/andrej-karpathy-skills).
 
-## How to Use
+## Core Principles
 
-When asked to review code changes or provide feedback on code quality, use this skill. The core prompt guiding this review is:
+### 1. Simplicity First
+- **Avoid Over-engineering:** Look for unnecessary abstractions, "just-in-case" logic, or complex patterns where a simpler solution exists.
+- **Minimalist Code:** Identify redundant code, duplicated logic, or boilerplate that doesn't add value.
+- **Readability:** Ensure the code is easy to follow and avoid overly clever or obfuscated implementations.
 
-"Please check the changes for any LLM smell and review my code like a senior who prioritises simplicity and scalability. Look for opportunities to reduce redundancy and repetitive code."
+### 2. Surgical Changes
+- **Task Focus:** Ensure changes are strictly related to the requested task.
+- **No Unrelated Cleanup:** Flag any "drive-by" refactoring, unrelated formatting changes, or fixes for non-essential lint errors.
+- **Side Effect Audit:** Evaluate if the changes could have unintended consequences in other parts of the application.
 
-## Key Review Criteria:
+### 3. LLM Smells
+- **Verbose Comments:** Flag comments that state the obvious or are overly wordy.
+- **Generic Phrasing:** Identify unnatural-sounding variable names or phrasing typical of AI-generated content.
+- **Disconnected Logic:** Look for code that doesn't fully understand the project's existing context or conventions.
 
-*   **LLM Smells:** Look for verbose or generic comments, unnatural phrasing, boilerplate code that doesn't add value, or any indicators that the code might have been generated without sufficient understanding or context.
-*   **Simplicity:** Assess if the code is easy to understand, has clear logic, and avoids unnecessary complexity.
-*   **Scalability:** Evaluate how well the code would handle increased data, more features, or future growth. Consider architectural choices, data structures, and algorithm efficiency.
-*   **Redundancy/Repetitive Code:** Identify duplicated logic, styles, or structures that could be abstracted or consolidated.
-*   **Prioritization:** Focus on simplicity and scalability as primary goals.
+### 4. Goal-Driven Execution
+- **Verification:** Confirm that the changes are accompanied by appropriate tests or a clear verification strategy.
+- **Correctness:** Ensure the implementation fully addresses the core requirement without missing edge cases.
 
-## Example Scenario
+## Usage Guidelines
+- Invoke this skill whenever a code review or feedback on implementation quality is requested.
+- Prioritize simplicity and surgicality above all else.
 
-**User Request:** "Review my recent changes for LLM smells and code quality."
-
-**Gemini CLI Action:** Invoke the `review-changes` skill, passing the relevant code context to the LLM with the core prompt.
-
----
-**Note:** This skill assumes the code context to be reviewed is available in the current session or can be provided.
+## Feedback Loop (CRITICAL):
+If the user provides feedback on the results or suggests improvements to the skill's performance, the agent MUST rewrite or update this skill's instructions and bundled resources accordingly to better meet the user's needs.
