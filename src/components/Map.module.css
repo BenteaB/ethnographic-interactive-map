@@ -29,3 +29,13 @@
   padding: 0.2rem 0.45rem;
   font-size: 0.78rem;
 }
+
+.mapTooltip {
+  background: var(--color-surface);
+  border: 1px solid var(--map-stroke-active);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
