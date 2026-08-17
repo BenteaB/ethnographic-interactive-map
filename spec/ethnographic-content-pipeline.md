@@ -79,7 +79,7 @@ ETNOMON uses many variant zone names (`Maramureş`, `Ţara Moţilor`, etc.). Exp
 
 - **Wikipedia** → `summary`, `geography` (lead section only)
 - **PDF seed** → `representativeVillages`, baseline `summary` if Wikipedia is missing
-- **ETNOMON** → `traditions` (architecture/installations), `images` (with museum credit)
+- **ETNOMON** → `images` only (monuments with museum/provenance credit; not mapped to traditions)
 - **Never invent** games or costumes — prefer empty categories over hallucinated content
 - Low-confidence inferences are marked `"confidence": "low"` in drafts
 

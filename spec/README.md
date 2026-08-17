@@ -22,6 +22,9 @@ npm run scrape:subzone -- --all
 # Validate draft JSON
 npm run validate:drafts
 
+# Validate published subzone + macro region JSON
+npm run validate:published
+
 # Publish an approved draft (status must be "approved")
 npm run publish:draft -- maramures
 

@@ -5,78 +5,7 @@
   "summary": "Zona etnofolclorică Neamț este situată în partea central-nordică a Moldovei. Sate reprezentative: Agapia, Tâmpești. Bucovina, devenită Ducatul Bucovinei în Imperiul Austriac, este o regiune istorică ce cuprinde un teritoriu de 10.443 km² care acoperă zona adiacentă orașelor Cajvana, Câmpulung Moldovenesc, Gura Humorului, Frasin, Milișăuți, Rădăuți, Siret, Solca, Suceava, Vatra Dornei și Vicovu de Sus din România, precum și Cernăuți, Cozmeni, Zastavna, Vășcăuți pe Ceremuș, Vijnița, Sadagura și Storojineț din Ucraina. Regiunea se află la răscrucea dintre Europa de Est și Europa Centrală de asemenea. Vrancea este un județ în regiunile istorice Moldova și Muntenia din România. Județul are o suprafață de 4.863 km², iar reședința este municipiul Focșani. Principalele cursuri de apă sunt: Siret, Șușița, Putna, Milcov, Râmnicu Sărat. Cele mai mari altitudini le dețin vârfurile Lăcăuț și Goru. Județul Vrancea se învecinează la nord-est, cu județul Vaslui, la est cu județul Galați, la sud-est cu județul Brăila, la sud cu județul Buzău, la vest cu județul Covasna și la nord cu județul Bacău. Județul este cuprins între coordonatele geografice 45°23’ și 46°11’ latitudine nordică și 26°23’ și 27°32’ longitudine estică, fiind situat în partea de sud-est a țării, la curbura Carpaților Orientali.",
   "games": [],
   "costumes": [],
-  "traditions": [
-    {
-      "id": "etnomon-atelier-0",
-      "name": "Atelier",
-      "description": "Proveniență: Săvineşti, com. Poiana Teiului, jud. Neamţ. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: începutul secolului al XX-lea. Etnie: români. Zonă: Valea Bistriţei.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Neam%C5%A3",
-          "title": "ETNOMON – Neamţ",
-          "retrievedAt": "2026-06-27T17:13:17.211Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-atelier-de-clopotar-1",
-      "name": "Atelier de clopotar",
-      "description": "Proveniență: Săvineşti, com. Poiana Teiului, jud. Neamţ. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: începutul secolului al XX-lea. Etnie: români. Zonă: Neamţ.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Neam%C5%A3",
-          "title": "ETNOMON – Neamţ",
-          "retrievedAt": "2026-06-27T17:13:17.211Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-sopron-de-lemne-0",
-      "name": "\"Şopron de lemne\"",
-      "description": "Proveniență: Straja, com. Straja, jud. Suceava. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1900. Etnie: români. Zonă: Bucovina.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
-          "title": "ETNOMON – Podişul Sucevei",
-          "retrievedAt": "2026-06-27T17:13:40.926Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-birja-1",
-      "name": "Birjă",
-      "description": "Proveniență: Vicşani, com. Muşeniţa, jud. Suceava. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: aproximativ 1900. Etnie: români. Zonă: Bucovina.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
-          "title": "ETNOMON – Podişul Sucevei",
-          "retrievedAt": "2026-06-27T17:13:40.926Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-atelierul-burs-maftei-0",
-      "name": "Atelierul \"Burs Maftei\"",
-      "description": "Proveniență: Săhastru, com. Nereju, jud. Vrancea. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: sfârşitul secolului XIX. Etnie: români. Zonă: Vrancea.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Vrancea",
-          "title": "ETNOMON – Vrancea",
-          "retrievedAt": "2026-06-27T17:14:13.452Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "1 monumente (pagina 1)"
-        }
-      ]
-    }
-  ],
+  "traditions": [],
   "images": [
     {
       "id": "tinutul-neamtului-etnomon-img-1",

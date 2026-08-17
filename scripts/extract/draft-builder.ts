@@ -86,7 +86,7 @@ export async function buildSubzoneDraft(seed: SubzoneSeed): Promise<ContentDraft
     representativeVillages: villages.length > 0 ? villages : undefined,
     games: [],
     costumes: [],
-    traditions: etnomon?.traditions ?? [],
+    traditions: [],
     images,
     sources: uniqueCitations(extractedFrom),
     status: "draft",

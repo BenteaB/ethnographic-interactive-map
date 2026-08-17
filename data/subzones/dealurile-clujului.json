@@ -10,36 +10,7 @@
   ],
   "games": [],
   "costumes": [],
-  "traditions": [
-    {
-      "id": "etnomon-biserica-pogorarea-sfantului-duh-0",
-      "name": "Biserica „Pogorârea Sfântului Duh”",
-      "description": "Proveniență: Dretea, com. Mănăstireni, jud. Cluj. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1672. Etnie: români. Zonă: Dealurile Clujului.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Dealurile%20Clujului",
-          "title": "ETNOMON – Dealurile Clujului",
-          "retrievedAt": "2026-06-27T17:13:45.731Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-biserica-1",
-      "name": "Biserică",
-      "description": "Proveniență: Dretea, com. Mănăstireni, jud. Cluj. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1672 pictura. Etnie: români. Zonă: Dealurile Clujului.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Dealurile%20Clujului",
-          "title": "ETNOMON – Dealurile Clujului",
-          "retrievedAt": "2026-06-27T17:13:45.731Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    }
-  ],
+  "traditions": [],
   "images": [
     {
       "id": "dealurile-clujului-etnomon-img-1",

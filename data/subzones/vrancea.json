@@ -14,22 +14,7 @@
   ],
   "games": [],
   "costumes": [],
-  "traditions": [
-    {
-      "id": "etnomon-atelierul-burs-maftei-0",
-      "name": "Atelierul \"Burs Maftei\"",
-      "description": "Proveniență: Săhastru, com. Nereju, jud. Vrancea. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: sfârşitul secolului XIX. Etnie: români. Zonă: Vrancea.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Vrancea",
-          "title": "ETNOMON – Vrancea",
-          "retrievedAt": "2026-06-27T17:14:13.452Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "1 monumente (pagina 1)"
-        }
-      ]
-    }
-  ],
+  "traditions": [],
   "images": [
     {
       "id": "vrancea-etnomon-img-1",

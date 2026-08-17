@@ -10,36 +10,7 @@
   ],
   "games": [],
   "costumes": [],
-  "traditions": [
-    {
-      "id": "etnomon-atelier-0",
-      "name": "Atelier",
-      "description": "Proveniență: Săvineşti, com. Poiana Teiului, jud. Neamţ. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: începutul secolului al XX-lea. Etnie: români. Zonă: Valea Bistriţei.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Neam%C5%A3",
-          "title": "ETNOMON – Neamţ",
-          "retrievedAt": "2026-06-27T17:13:17.211Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-atelier-de-clopotar-1",
-      "name": "Atelier de clopotar",
-      "description": "Proveniență: Săvineşti, com. Poiana Teiului, jud. Neamţ. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: începutul secolului al XX-lea. Etnie: români. Zonă: Neamţ.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Neam%C5%A3",
-          "title": "ETNOMON – Neamţ",
-          "retrievedAt": "2026-06-27T17:13:17.211Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    }
-  ],
+  "traditions": [],
   "images": [
     {
       "id": "tinutul-neamtului-etnomon-img-1",

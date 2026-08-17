@@ -12,36 +12,7 @@
   ],
   "games": [],
   "costumes": [],
-  "traditions": [
-    {
-      "id": "etnomon-sopron-de-lemne-0",
-      "name": "\"Şopron de lemne\"",
-      "description": "Proveniență: Straja, com. Straja, jud. Suceava. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1900. Etnie: români. Zonă: Bucovina.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
-          "title": "ETNOMON – Podişul Sucevei",
-          "retrievedAt": "2026-06-27T17:13:40.926Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-birja-1",
-      "name": "Birjă",
-      "description": "Proveniență: Vicşani, com. Muşeniţa, jud. Suceava. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: aproximativ 1900. Etnie: români. Zonă: Bucovina.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
-          "title": "ETNOMON – Podişul Sucevei",
-          "retrievedAt": "2026-06-27T17:13:40.926Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "2 monumente (pagina 1)"
-        }
-      ]
-    }
-  ],
+  "traditions": [],
   "images": [
     {
       "id": "obcinele-sucevei-etnomon-img-1",

@@ -18,22 +18,7 @@
   ],
   "games": [],
   "costumes": [],
-  "traditions": [
-    {
-      "id": "etnomon-batoza-de-treierat-clayton-0",
-      "name": "Batoza de treierat „Clayton”",
-      "description": "Proveniență: com. Gura Râului, jud. Sibiu. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1938. Etnie: români. Zonă: Mărginimea Sibiului.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=M%C4%83rginimea%20Sibiului",
-          "title": "ETNOMON – Mărginimea Sibiului",
-          "retrievedAt": "2026-06-27T17:13:56.730Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "1 monumente (pagina 1)"
-        }
-      ]
-    }
-  ],
+  "traditions": [],
   "images": [
     {
       "id": "marginimea-sibiului-etnomon-img-1",

@@ -5,78 +5,7 @@
   "summary": "Delta Dunării, aflată în mare parte în Dobrogea, România și parțial în Ucraina, este a doua ca mărime și cea mai bine conservată dintre deltele europene.",
   "games": [],
   "costumes": [],
-  "traditions": [
-    {
-      "id": "etnomon-dam-0",
-      "name": "Dam",
-      "description": "Proveniență: Mahmudia, com. Mahmudia, jud. Tulcea. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: începutul secolului XX. Etnie: lipoveni. Zonă: Dobrogea de nord.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
-          "title": "ETNOMON – Delta Dunării",
-          "retrievedAt": "2026-06-27T17:13:24.242Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "5 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-pod-plutitor-1",
-      "name": "Pod plutitor",
-      "description": "Proveniență: Capidava, com. Topalu, jud. Constanţa. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1928. Etnie: români. Zonă: Dobrogea.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
-          "title": "ETNOMON – Delta Dunării",
-          "retrievedAt": "2026-06-27T17:13:24.242Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "5 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-pod-plutitor-2",
-      "name": "Pod plutitor",
-      "description": "Proveniență: Capidava, com. Topalu, jud. Constanţa. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1928. Etnie: români. Zonă: Dobrogea.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
-          "title": "ETNOMON – Delta Dunării",
-          "retrievedAt": "2026-06-27T17:13:24.242Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "5 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-pod-plutitor-3",
-      "name": "Pod plutitor",
-      "description": "Proveniență: Capidava, com. Topalu, jud. Constanţa. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1928. Etnie: români. Zonă: Dobrogea.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
-          "title": "ETNOMON – Delta Dunării",
-          "retrievedAt": "2026-06-27T17:13:24.242Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "5 monumente (pagina 1)"
-        }
-      ]
-    },
-    {
-      "id": "etnomon-banie-baie-neagra-4",
-      "name": "Banie (baie neagră)",
-      "description": "Proveniență: Mahmudia, com. Mahmudia, jud. Tulcea. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: începutul secolului XX. Etnie: lipoveni. Zonă: Dobrogea de nord.",
-      "sources": [
-        {
-          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
-          "title": "ETNOMON – Delta Dunării",
-          "retrievedAt": "2026-06-27T17:13:24.242Z",
-          "license": "Institutul Național al Patrimoniului",
-          "excerpt": "5 monumente (pagina 1)"
-        }
-      ]
-    }
-  ],
+  "traditions": [],
   "images": [
     {
       "id": "tulcea-delta-dunarii-etnomon-img-1",

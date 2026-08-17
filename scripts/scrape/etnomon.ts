@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
-import type { MediaAsset, RegionItem, SourceCitation } from "../../src/types/region.ts";
-import { normalizeRegionName, slugify } from "../lib/paths.ts";
+import type { MediaAsset, SourceCitation } from "../../src/types/region.ts";
+import { normalizeRegionName } from "../lib/paths.ts";
 import { fetchCached } from "./fetch.ts";
 
 export type EtnomonMonument = {
@@ -16,7 +16,6 @@ export type EtnomonMonument = {
 
 export type EtnomonResult = {
   monuments: EtnomonMonument[];
-  traditions: RegionItem[];
   images: MediaAsset[];
   citation: SourceCitation;
 };
@@ -74,25 +73,8 @@ function zoneMatches(monumentZone: string, zoneQueries: string[]): boolean {
   });
 }
 
-function monumentToTradition(
-  monument: EtnomonMonument,
-  citation: SourceCitation,
-  index: number
-): RegionItem {
-  const descriptionParts = [
-    monument.provenance ? `Proveniență: ${monument.provenance}.` : null,
-    monument.museum ? `Muzeu: ${monument.museum}.` : null,
-    monument.dating ? `Dată: ${monument.dating}.` : null,
-    monument.ethnicity ? `Etnie: ${monument.ethnicity}.` : null,
-    monument.zone ? `Zonă: ${monument.zone}.` : null
-  ].filter(Boolean);
-
-  return {
-    id: slugify(`etnomon-${monument.localName || monument.name}-${index}`),
-    name: monument.localName || monument.name,
-    description: descriptionParts.join(" ") || monument.name,
-    sources: [citation]
-  };
+function monumentCaption(monument: EtnomonMonument): string {
+  return [monument.museum, monument.provenance, monument.dating].filter(Boolean).join(" · ");
 }
 
 function buildImages(
@@ -102,12 +84,12 @@ function buildImages(
 ): MediaAsset[] {
   return monuments
     .filter((monument) => isMonumentPhoto(monument.imageSrc))
-    .slice(0, 4)
+    .slice(0, 6)
     .map((monument, index) => ({
       id: `${subzoneId}-etnomon-img-${index + 1}`,
       src: monument.imageSrc!,
       alt: monument.localName || monument.name,
-      credit: `ETNOMON / ${monument.museum}`,
+      credit: monumentCaption(monument) ? `ETNOMON · ${monumentCaption(monument)}` : "ETNOMON",
       sources: [citation]
     }));
 }
@@ -133,13 +115,9 @@ export async function fetchEtnomonZone(
       excerpt: `${monuments.length} monumente etnografice`
     };
 
-    const topMonuments = monuments.slice(0, 12);
-    const traditions = topMonuments.map((monument, index) =>
-      monumentToTradition(monument, citation, index)
-    );
     const images = buildImages(monuments, subzoneId, citation);
 
-    return { monuments, traditions, images, citation };
+    return { monuments, images, citation };
   } catch {
     return null;
   }
@@ -191,10 +169,7 @@ export async function fetchAllEtnomonPages(
 
   if (allMonuments.length === 0 || !citation) return null;
 
-  const traditions = allMonuments.slice(0, 15).map((monument, index) =>
-    monumentToTradition(monument, citation!, index)
-  );
   const images = buildImages(allMonuments, subzoneId, citation);
 
-  return { monuments: allMonuments, traditions, images, citation };
+  return { monuments: allMonuments, images, citation };
 }
