@@ -1,0 +1,46 @@
+{
+  "id": "sudul-munteniei",
+  "name": "Sudul Munteniei",
+  "macroRegionId": "muntenia",
+  "summary": "Muntenia este o regiune istorică din sudul României, parte componentă a Țării Românești. Limitele sale sunt: la nord Munții Carpați, la vest râul Olt, la sud și est fluviul Dunărea, iar la nord-est râurile Milcov, Putna și Siret.",
+  "geography": "Muntenia este o regiune istorică din sudul României, parte componentă a Țării Românești. Limitele sale sunt: la nord Munții Carpați, la vest râul Olt, la sud și est fluviul Dunărea, iar la nord-est râurile Milcov, Putna și Siret.",
+  "representativeVillages": [
+    "Suhaia",
+    "Drăgănești Vlașca"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "sudul-munteniei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/20140703_leaving_Otopeni_03.jpg/330px-20140703_leaving_Otopeni_03.jpg",
+      "alt": "Muntenia",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Muntenia",
+          "title": "Muntenia",
+          "retrievedAt": "2026-06-27T17:13:20.694Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Muntenia este o regiune istorică din sudul României, parte componentă a Țării Românești. Limitele sale sunt: la nord Munții Carpați, la vest râul Olt, la sud și est fluviul Dunărea, iar la nord-est râurile Milcov, Putna și Siret."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Muntenia",
+      "title": "Muntenia",
+      "retrievedAt": "2026-06-27T17:13:20.694Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Muntenia este o regiune istorică din sudul României, parte componentă a Țării Românești. Limitele sale sunt: la nord Munții Carpați, la vest râul Olt, la sud și est fluviul Dunărea, iar la nord-est râurile Milcov, Putna și Siret."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:20.696Z",
+      "excerpt": "Situată în sudul Munteniei, zona etnografică Teleorman ocupă partea centrală a Câmpiei Române. Sate reprezentative: Suhaia, Drăgănești Vlașca."
+    }
+  ]
+}

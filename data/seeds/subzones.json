@@ -1,0 +1,202 @@
+{
+  "subzones": [
+    {
+      "id": "bran",
+      "name": "Bran",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Bran"],
+      "etnomonZoneQueries": ["Bran", "Bran (Branul de Jos)", "Bran-Rucăr"],
+      "wikiTitle": "Bran (localitate)",
+      "pdfSection": 1
+    },
+    {
+      "id": "tara-motilor",
+      "name": "Țara Moților",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Ţara Moţilor"],
+      "etnomonZoneQueries": ["Ţara Moţilor", "Apuseni", "Munţii Apuseni"],
+      "wikiTitle": "Țara Moților",
+      "pdfSection": 2
+    },
+    {
+      "id": "gorj",
+      "name": "Gorj",
+      "macroRegionId": "oltenia",
+      "historicalRegionNames": ["Gorj"],
+      "etnomonZoneQueries": ["Gorj", "Valea Jiului", "Polovragi"],
+      "wikiTitle": "Gorj",
+      "pdfSection": 3
+    },
+    {
+      "id": "tara-oasului",
+      "name": "Țara Oașului",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Ţara Oaşului"],
+      "etnomonZoneQueries": ["Ţara Oaşului"],
+      "wikiTitle": "Țara Oașului",
+      "pdfSection": 4
+    },
+    {
+      "id": "tinutul-nasaudului",
+      "name": "Ținutul Năsăudului",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Ţinutul Năsăudului"],
+      "etnomonZoneQueries": ["Năsăud", "Bistriţa"],
+      "wikiTitle": "Ținutul Năsăudului",
+      "pdfSection": 5
+    },
+    {
+      "id": "tara-fagarasului",
+      "name": "Țara Făgărașului",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Ţara Făgăraşului"],
+      "etnomonZoneQueries": ["Ţara Făgăraşului", "Ţara Oltului"],
+      "wikiTitle": "Țara Făgărașului",
+      "pdfSection": 6
+    },
+    {
+      "id": "harghita-covasna",
+      "name": "Harghita – Covasna",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Harghita – Covasna"],
+      "etnomonZoneQueries": ["Harghita", "Covasna-Harghita", "Ţinutul Secuiesc , Covasna-Harghita"],
+      "wikiTitle": "Ținutul Secuiesc",
+      "pdfSection": 7
+    },
+    {
+      "id": "tinutul-neamtului",
+      "name": "Ținutul Neamțului",
+      "macroRegionId": "moldova",
+      "historicalRegionNames": ["Ţinutul Neamţului"],
+      "etnomonZoneQueries": ["Neamţ", "Valea Bistriţei"],
+      "wikiTitle": "Neamț (zonă etnografică)",
+      "pdfSection": 8
+    },
+    {
+      "id": "podisul-tarnavelor",
+      "name": "Podișul Târnavelor",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Podişul Târnavelor"],
+      "etnomonZoneQueries": ["Podişul Târnavelor", "Valea Târnavelor", "Târnave"],
+      "wikiTitle": "Podișul Târnavelor",
+      "pdfSection": 9
+    },
+    {
+      "id": "sudul-munteniei",
+      "name": "Sudul Munteniei",
+      "macroRegionId": "muntenia",
+      "historicalRegionNames": ["Sudul Munteniei"],
+      "etnomonZoneQueries": ["Câmpia Munteniei", "Muntenia"],
+      "wikiTitle": "Muntenia",
+      "pdfSection": 10
+    },
+    {
+      "id": "tulcea-delta-dunarii",
+      "name": "Tulcea și Delta Dunării",
+      "macroRegionId": "dobrogea",
+      "historicalRegionNames": ["Tulcea şi Delta Dunării"],
+      "etnomonZoneQueries": ["Delta Dunării", "Dobrogea de nord", "Tulcea"],
+      "wikiTitle": "Delta Dunării",
+      "pdfSection": 11
+    },
+    {
+      "id": "valcea",
+      "name": "Vâlcea",
+      "macroRegionId": "oltenia",
+      "historicalRegionNames": ["Vâlcea"],
+      "etnomonZoneQueries": ["Vâlcea", "Ţara Loviştei"],
+      "wikiTitle": "Vâlcea",
+      "pdfSection": 12
+    },
+    {
+      "id": "tara-hategului",
+      "name": "Țara Hațegului",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Ţara Haţegului"],
+      "etnomonZoneQueries": ["Ţara Haţegului"],
+      "wikiTitle": "Țara Hațegului",
+      "pdfSection": 13
+    },
+    {
+      "id": "obcinele-sucevei",
+      "name": "Obcinele Sucevei",
+      "macroRegionId": "moldova",
+      "historicalRegionNames": ["Obcinele Sucevei"],
+      "etnomonZoneQueries": ["Podişul Sucevei", "Bucovina", "Suceava"],
+      "wikiTitle": "Bucovina",
+      "pdfSection": 14
+    },
+    {
+      "id": "campia-timisului-aradului",
+      "name": "Câmpia Timișului și Câmpia Aradului",
+      "macroRegionId": "banat",
+      "historicalRegionNames": ["Câmpia Timişului şi Câmpia Aradului"],
+      "etnomonZoneQueries": ["Câmpia Timişului", "Banat", "Arad"],
+      "wikiTitle": "Banat",
+      "pdfSection": 15
+    },
+    {
+      "id": "dealurile-clujului",
+      "name": "Dealurile Clujului",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Dealurile Clujului"],
+      "etnomonZoneQueries": ["Dealurile Clujului", "Cluj"],
+      "wikiTitle": "Cluj-Napoca",
+      "pdfSection": 16
+    },
+    {
+      "id": "muscelele-argesului",
+      "name": "Muscelele Argeșului",
+      "macroRegionId": "muntenia",
+      "historicalRegionNames": ["Muscelele Argeşului"],
+      "etnomonZoneQueries": ["Muscel", "Argeş"],
+      "wikiTitle": "Muscel (Argeș)",
+      "pdfSection": 17
+    },
+    {
+      "id": "maramures",
+      "name": "Maramureș",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Maramureş"],
+      "etnomonZoneQueries": ["Maramureş", "Ţara Maramureşului"],
+      "wikiTitle": "Maramureș",
+      "pdfSection": 18
+    },
+    {
+      "id": "marginimea-sibiului",
+      "name": "Mărginimea Sibiului",
+      "macroRegionId": "transilvania",
+      "historicalRegionNames": ["Mărginimea Sibiului"],
+      "etnomonZoneQueries": ["Mărginimea Sibiului", "Sibiu"],
+      "wikiTitle": "Mărginimea Sibiului",
+      "pdfSection": 19
+    },
+    {
+      "id": "campia-olteniei",
+      "name": "Câmpia Olteniei",
+      "macroRegionId": "oltenia",
+      "historicalRegionNames": ["Câmpia Olteniei"],
+      "etnomonZoneQueries": ["Oltenia", "Dolj", "Romanaţi"],
+      "wikiTitle": "Oltenia",
+      "pdfSection": 20
+    },
+    {
+      "id": "valea-prahovei",
+      "name": "Valea Prahovei",
+      "macroRegionId": "muntenia",
+      "historicalRegionNames": ["Valea Prahovei"],
+      "etnomonZoneQueries": ["Valea Prahovei", "Prahova"],
+      "wikiTitle": "Valea Prahovei",
+      "pdfSection": 21
+    },
+    {
+      "id": "vrancea",
+      "name": "Vrancea",
+      "macroRegionId": "moldova",
+      "historicalRegionNames": ["Vrancea"],
+      "etnomonZoneQueries": ["Vrancea", "Ţara Vrancei", "Valea Milcovului; Vrancea"],
+      "wikiTitle": "Vrancea",
+      "pdfSection": 22
+    }
+  ]
+}

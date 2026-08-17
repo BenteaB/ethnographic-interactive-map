@@ -1,0 +1,25 @@
+{
+  "id": "bran",
+  "name": "Bran",
+  "macroRegionId": "transilvania",
+  "summary": "Culoarul Bran constituie unul dintre puținele pasuri lungi de trecere peste Carpații Meridionali, între Muntenia și Transilvania. Satele reprezentative: Bran, Moeciu, Fundata, Râșnov.",
+  "geography": "Culoarul Bran constituie unul dintre puținele pasuri lungi de trecere peste Carpații Meridionali, între Muntenia și Transilvania. Satele reprezentative: Bran, Moeciu, Fundata, Râșnov.",
+  "representativeVillages": [
+    "Bran",
+    "Moeciu",
+    "Fundata",
+    "Râșnov"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [],
+  "sources": [
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:12:39.113Z",
+      "excerpt": "Culoarul Bran constituie unul dintre puținele pasuri lungi de trecere peste Carpații Meridionali, între Muntenia și Transilvania. Satele reprezentative: Bran, Moeciu, Fundata, Râșnov."
+    }
+  ]
+}

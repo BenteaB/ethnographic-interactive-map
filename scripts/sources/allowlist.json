@@ -1,0 +1,12 @@
+{
+  "domains": [
+    "etnomon.cimec.ro",
+    "monumente-etnografice.cimec.ro",
+    "ro.wikipedia.org",
+    "arhiva.muzeultaranuluiroman.ro",
+    "muzeul-satului.ro",
+    "muzeultaranuluiroman.ro"
+  ],
+  "rateLimitMs": 1000,
+  "userAgent": "EthnographicMapResearchBot/1.0 (educational; contact: local-dev)"
+}

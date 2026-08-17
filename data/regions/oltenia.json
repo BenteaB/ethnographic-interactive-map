@@ -2,34 +2,81 @@
   "id": "oltenia",
   "code": "RO-OT",
   "name": "Oltenia",
-  "summary": "Strong choreographic rhythm and oral storytelling rooted in rural gatherings.",
-  "games": [
-    {
-      "id": "oltenia-sarba",
-      "name": "Sarba olteneasca",
-      "description": "Fast chain dance emphasizing synchronized footwork."
-    }
-  ],
-  "costumes": [
-    {
-      "id": "oltenia-vest",
-      "name": "Vesta cusuta manual",
-      "description": "Dark vest with geometric motifs layered over linen shirt."
-    }
-  ],
-  "traditions": [
-    {
-      "id": "oltenia-claca",
-      "name": "Sezatoare (claca)",
-      "description": "Collective evening gatherings for work, songs, and stories."
-    }
-  ],
+  "summary": "Județul Gorj este unul dintre cele 41 de județe din România, situat în regiunea Oltenia. Reședința este la municipiul Târgu Jiu. Vâlcea se poate referi la:vale veche, colmatată, cu versanți bine individualizați, fixați pe covorul vegetal; este lipsită de scurgere și are un fund aproape plat, slab înclinat.\nJudețul Vâlcea\nLocalități din România:\nRâmnicu Vâlcea\nVâlcea, Alba\nVâlcea, Brașov Oltenia este o regiune istorică din sud-vestul României delimitată la est de râul Olt, la sud și vest de Dunăre, iar la nord de Carpații Meridionali.",
+  "games": [],
+  "costumes": [],
+  "traditions": [],
   "images": [
     {
-      "id": "oltenia-img-1",
-      "src": "/images/regions/oltenia/main.svg",
-      "alt": "Oltenia inspired decorative folk geometry",
-      "credit": "Placeholder illustration"
+      "id": "gorj-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Prezentare_Judet_Gorj.jpg/330px-Prezentare_Judet_Gorj.jpg",
+      "alt": "Județul Gorj",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+          "title": "Județul Gorj",
+          "retrievedAt": "2026-06-27T17:12:43.054Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Județul Gorj este unul dintre cele 41 de județe din România, situat în regiunea Oltenia. Reședința este la municipiul Târgu Jiu."
+        }
+      ]
+    },
+    {
+      "id": "campia-olteniei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Valea_Oltului-Judetul_Valcea.JPG/330px-Valea_Oltului-Judetul_Valcea.JPG",
+      "alt": "Oltenia",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Oltenia",
+          "title": "Oltenia",
+          "retrievedAt": "2026-06-27T17:13:58.264Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Oltenia este o regiune istorică din sud-vestul României delimitată la est de râul Olt, la sud și vest de Dunăre, iar la nord de Carpații Meridionali."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+      "title": "Județul Gorj",
+      "retrievedAt": "2026-06-27T17:12:43.054Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Județul Gorj este unul dintre cele 41 de județe din România, situat în regiunea Oltenia. Reședința este la municipiul Târgu Jiu."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:12:43.061Z",
+      "excerpt": "Situată în NV Olteniei, pe cursul mijlociu al râului Jiu. Zona etnofolclorică Gorj este alcătuită din valea Jiului și valea Sadului. Sate reprezentative: Tismana, Polovragi, Baia de Fier, Arcani, Peșt"
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/V%C3%A2lcea_(dezambiguizare)",
+      "title": "Vâlcea (dezambiguizare)",
+      "retrievedAt": "2026-06-27T17:13:25.787Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Vâlcea se poate referi la:vale veche, colmatată, cu versanți bine individualizați, fixați pe covorul vegetal; este lipsită de scurgere și are un fund aproape plat, slab înclinat.\nJudețul Vâlcea\nLocalități din România:\nRâmnicu Vâlcea\nVâlcea, Alba\nVâlcea, Brașov"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:25.788Z",
+      "excerpt": "Situată pe cursul mijlociu al Oltului, între Munții Făgăraș și Cozia la est și Munții Lotrului și Căpățânii la vest. Țara Loviștei ocupă nord-estul județului Vâlcea. Sate reprezentative: Malaia, Vaide"
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/Oltenia",
+      "title": "Oltenia",
+      "retrievedAt": "2026-06-27T17:13:58.264Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Oltenia este o regiune istorică din sud-vestul României delimitată la est de râul Olt, la sud și vest de Dunăre, iar la nord de Carpații Meridionali."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:58.264Z",
+      "excerpt": "Situată în bazinul inferior al Jiului, pe stânga Dunării, în județul Dolj. Sate reprezentative: Dăbuleni și Ghighera."
     }
   ]
 }

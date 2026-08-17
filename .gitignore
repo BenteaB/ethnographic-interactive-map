@@ -27,3 +27,7 @@ pnpm-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scraping pipeline caches
+data/drafts/
+data/raw/

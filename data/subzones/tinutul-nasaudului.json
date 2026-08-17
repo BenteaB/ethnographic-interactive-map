@@ -1,0 +1,25 @@
+{
+  "id": "tinutul-nasaudului",
+  "name": "Ținutul Năsăudului",
+  "macroRegionId": "transilvania",
+  "summary": "Situată în partea de NE a Podișului Transilvaniei, în estul și nord-estul județului Bistrița-Năsăud. Sate reprezentative: Șanț, Bistrița Bârgăului, Prundul Bârgăului, Colibița.",
+  "geography": "Situată în partea de NE a Podișului Transilvaniei, în estul și nord-estul județului Bistrița-Năsăud. Sate reprezentative: Șanț, Bistrița Bârgăului, Prundul Bârgăului, Colibița.",
+  "representativeVillages": [
+    "Șanț",
+    "Bistrița Bârgăului",
+    "Prundul Bârgăului",
+    "Colibița"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [],
+  "sources": [
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:12:56.501Z",
+      "excerpt": "Situată în partea de NE a Podișului Transilvaniei, în estul și nord-estul județului Bistrița-Năsăud. Sate reprezentative: Șanț, Bistrița Bârgăului, Prundul Bârgăului, Colibița."
+    }
+  ]
+}
