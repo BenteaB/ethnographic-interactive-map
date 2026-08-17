@@ -2,27 +2,74 @@
   "id": "muntenia",
   "code": "RO-MU",
   "name": "Muntenia",
-  "summary": "Southern ethnographic region with strong fair culture, ritual songs, and varied local attire.",
-  "games": [
+  "summary": "Muntenia este o regiune istorică din sudul României, parte componentă a Țării Românești. Limitele sale sunt: la nord Munții Carpați, la vest râul Olt, la sud și est fluviul Dunărea, iar la nord-est râurile Milcov, Putna și Siret. Zonă etnofolclorică reprezentativă în nord-estul județului Argeș. Sate reprezentative: Lerești, Rucăr, Dâmbovicioara. Valea Prahovei este una dintre regiunile turistice cele mai renumite din Munții Carpați din România, fiind situată pe traseul râului Prahova. Valea Prahovei este așezată în partea de sud-est a României, în nordul Munteniei, în bazinul superior și mijlociu al râului cu același nume, afluent al Ialomiței. Ea se învecinează la sud cu câmpia piemontană a Ploieștilor, la vest cu județul Dâmbovița peste masivul Bucegi, la nord cu depresiunea Brașovului și orașul Brașov, iar la est cu Valea Doftanei, peste munții Baiului și Piatra Mare. În sectorul sudic, Valea Prahovei formează limita între Subcarpații Getici și Subcarpații Curburii.",
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
     {
-      "id": "muntenia-geamparale",
-      "name": "Geamparale",
-      "description": "Fast paired dance style performed at weddings and community events."
+      "id": "sudul-munteniei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/20140703_leaving_Otopeni_03.jpg/330px-20140703_leaving_Otopeni_03.jpg",
+      "alt": "Muntenia",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Muntenia",
+          "title": "Muntenia",
+          "retrievedAt": "2026-06-27T17:13:20.694Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Muntenia este o regiune istorică din sudul României, parte componentă a Țării Românești. Limitele sale sunt: la nord Munții Carpați, la vest râul Olt, la sud și est fluviul Dunărea, iar la nord-est râurile Milcov, Putna și Siret."
+        }
+      ]
+    },
+    {
+      "id": "valea-prahovei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Valea_Prahovei.JPG/330px-Valea_Prahovei.JPG",
+      "alt": "Valea Prahovei",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Valea_Prahovei",
+          "title": "Valea Prahovei",
+          "retrievedAt": "2026-06-27T17:14:10.202Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Valea Prahovei este una dintre regiunile turistice cele mai renumite din Munții Carpați din România, fiind situată pe traseul râului Prahova. Valea Prahovei este așezată în partea de sud-est a României, în nordul Munteniei, în bazinul superior și mijlociu al râului cu același num"
+        }
+      ]
     }
   ],
-  "costumes": [
+  "sources": [
     {
-      "id": "muntenia-fota",
-      "name": "Ie cu fota",
-      "description": "Traditional blouse matched with wrapped woven skirt and decorated belt."
-    }
-  ],
-  "traditions": [
+      "url": "https://ro.wikipedia.org/wiki/Muntenia",
+      "title": "Muntenia",
+      "retrievedAt": "2026-06-27T17:13:20.694Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Muntenia este o regiune istorică din sudul României, parte componentă a Țării Românești. Limitele sale sunt: la nord Munții Carpați, la vest râul Olt, la sud și est fluviul Dunărea, iar la nord-est râurile Milcov, Putna și Siret."
+    },
     {
-      "id": "muntenia-dragobete",
-      "name": "Dragobete",
-      "description": "Spring-associated social custom linked to courtship and seasonal renewal."
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:20.696Z",
+      "excerpt": "Situată în sudul Munteniei, zona etnografică Teleorman ocupă partea centrală a Câmpiei Române. Sate reprezentative: Suhaia, Drăgănești Vlașca."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:47.190Z",
+      "excerpt": "Zonă etnofolclorică reprezentativă în nord-estul județului Argeș. Sate reprezentative: Lerești, Rucăr, Dâmbovicioara."
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/Valea_Prahovei",
+      "title": "Valea Prahovei",
+      "retrievedAt": "2026-06-27T17:14:10.202Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Valea Prahovei este una dintre regiunile turistice cele mai renumite din Munții Carpați din România, fiind situată pe traseul râului Prahova. Valea Prahovei este așezată în partea de sud-est a României, în nordul Munteniei, în bazinul superior și mijlociu al râului cu același num"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:14:10.204Z",
+      "excerpt": "Situată în partea central-nordică a Munteniei, în județul Prahova. Sate reprezentative: Breaza, Telega, Cornu, Cerașu, Valea Doftanei, Cheia, Brebu."
     }
-  ],
-  "images": []
+  ]
 }

@@ -1,8 +1,15 @@
 {
-  "id": "dobrogea",
-  "code": "RO-DB",
-  "name": "Dobrogea",
+  "id": "tulcea-delta-dunarii",
+  "name": "Tulcea și Delta Dunării",
+  "macroRegionId": "dobrogea",
   "summary": "Delta Dunării, aflată în mare parte în Dobrogea, România și parțial în Ucraina, este a doua ca mărime și cea mai bine conservată dintre deltele europene.",
+  "geography": "Delta Dunării, aflată în mare parte în Dobrogea, România și parțial în Ucraina, este a doua ca mărime și cea mai bine conservată dintre deltele europene.",
+  "representativeVillages": [
+    "Crișan",
+    "Murighiol",
+    "Sf. Gheorghe",
+    "Mila 23"
+  ],
   "games": [],
   "costumes": [],
   "traditions": [

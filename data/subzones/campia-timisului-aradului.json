@@ -1,8 +1,15 @@
 {
-  "id": "banat",
-  "code": "RO-BN",
-  "name": "Banat",
+  "id": "campia-timisului-aradului",
+  "name": "Câmpia Timișului și Câmpia Aradului",
+  "macroRegionId": "banat",
   "summary": "Banatul este o provincie istorică împărțită astăzi între România, Serbia și o foarte mică parte din Ungaria.",
+  "geography": "Banatul este o provincie istorică împărțită astăzi între România, Serbia și o foarte mică parte din Ungaria.",
+  "representativeVillages": [
+    "Lenauheim",
+    "Teremia Mare",
+    "Șiria",
+    "Ghioroc"
+  ],
   "games": [],
   "costumes": [],
   "traditions": [],

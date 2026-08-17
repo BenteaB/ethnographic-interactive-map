@@ -1,0 +1,32 @@
+{
+  "id": "valcea",
+  "name": "Vâlcea",
+  "macroRegionId": "oltenia",
+  "summary": "Vâlcea se poate referi la:vale veche, colmatată, cu versanți bine individualizați, fixați pe covorul vegetal; este lipsită de scurgere și are un fund aproape plat, slab înclinat.\nJudețul Vâlcea\nLocalități din România:\nRâmnicu Vâlcea\nVâlcea, Alba\nVâlcea, Brașov",
+  "geography": "Vâlcea se poate referi la:vale veche, colmatată, cu versanți bine individualizați, fixați pe covorul vegetal; este lipsită de scurgere și are un fund aproape plat, slab înclinat.\nJudețul Vâlcea\nLocalități din România:\nRâmnicu Vâlcea\nVâlcea, Alba\nVâlcea, Brașov",
+  "representativeVillages": [
+    "Malaia",
+    "Vaideeni",
+    "Horezu",
+    "Voineasa"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/V%C3%A2lcea_(dezambiguizare)",
+      "title": "Vâlcea (dezambiguizare)",
+      "retrievedAt": "2026-06-27T17:13:25.787Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Vâlcea se poate referi la:vale veche, colmatată, cu versanți bine individualizați, fixați pe covorul vegetal; este lipsită de scurgere și are un fund aproape plat, slab înclinat.\nJudețul Vâlcea\nLocalități din România:\nRâmnicu Vâlcea\nVâlcea, Alba\nVâlcea, Brașov"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:25.788Z",
+      "excerpt": "Situată pe cursul mijlociu al Oltului, între Munții Făgăraș și Cozia la est și Munții Lotrului și Căpățânii la vest. Țara Loviștei ocupă nord-estul județului Vâlcea. Sate reprezentative: Malaia, Vaide"
+    }
+  ]
+}

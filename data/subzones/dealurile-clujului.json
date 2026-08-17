@@ -1,0 +1,97 @@
+{
+  "id": "dealurile-clujului",
+  "name": "Dealurile Clujului",
+  "macroRegionId": "transilvania",
+  "summary": "Cluj-Napoca, numit doar Cluj până în 1974 și în limbajul cotidian, este municipiul de reședință al județului Cluj, Transilvania, România.\nAvând 286.598 de locuitori la recensământul din 2021, este al doilea oraș ca populație din țară. Cu o istorie de peste două milenii, orașul este supranumit Inima Transilvaniei sau Orașul comoară.",
+  "geography": "Cluj-Napoca, numit doar Cluj până în 1974 și în limbajul cotidian, este municipiul de reședință al județului Cluj, Transilvania, România.\nAvând 286.598 de locuitori la recensământul din 2021, este al doilea oraș ca populație din țară. Cu o istorie de peste două milenii, orașul este supranumit Inima Transilvaniei sau Orașul comoară.",
+  "representativeVillages": [
+    "Sâncraiu",
+    "Poieni"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [
+    {
+      "id": "etnomon-biserica-pogorarea-sfantului-duh-0",
+      "name": "Biserica „Pogorârea Sfântului Duh”",
+      "description": "Proveniență: Dretea, com. Mănăstireni, jud. Cluj. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1672. Etnie: români. Zonă: Dealurile Clujului.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Dealurile%20Clujului",
+          "title": "ETNOMON – Dealurile Clujului",
+          "retrievedAt": "2026-06-27T17:13:45.731Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 1)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-biserica-1",
+      "name": "Biserică",
+      "description": "Proveniență: Dretea, com. Mănăstireni, jud. Cluj. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: 1672 pictura. Etnie: români. Zonă: Dealurile Clujului.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Dealurile%20Clujului",
+          "title": "ETNOMON – Dealurile Clujului",
+          "retrievedAt": "2026-06-27T17:13:45.731Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 1)"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "dealurile-clujului-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/F0574173A2C7475B8E127247F01CEA96.jpg",
+      "alt": "Biserica „Pogorârea Sfântului Duh”",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Dealurile%20Clujului",
+          "title": "ETNOMON – Dealurile Clujului",
+          "retrievedAt": "2026-06-27T17:13:45.731Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 1)"
+        }
+      ]
+    },
+    {
+      "id": "dealurile-clujului-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/thumb/535C5BF35D7949FFBC58DA6AB3E927B3.jpg",
+      "alt": "Biserică",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Dealurile%20Clujului",
+          "title": "ETNOMON – Dealurile Clujului",
+          "retrievedAt": "2026-06-27T17:13:45.731Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 1)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Cluj-Napoca",
+      "title": "Cluj-Napoca",
+      "retrievedAt": "2026-06-27T17:13:44.190Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Cluj-Napoca, numit doar Cluj până în 1974 și în limbajul cotidian, este municipiul de reședință al județului Cluj, Transilvania, România.\nAvând 286.598 de locuitori la recensământul din 2021, este al doilea oraș ca populație din țară. Cu o istorie de peste două milenii, orașul es"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:44.191Z",
+      "excerpt": "Situată în centrul Transilvaniei, aparținând județelor Cluj și Sălaj. Sate reprezentative: Sâncraiu și Poieni."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Dealurile%20Clujului",
+      "title": "ETNOMON – Dealurile Clujului",
+      "retrievedAt": "2026-06-27T17:13:45.731Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "2 monumente (pagina 1)"
+    }
+  ]
+}

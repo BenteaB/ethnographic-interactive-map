@@ -1,0 +1,316 @@
+{
+  "id": "maramures",
+  "name": "Maramureș",
+  "macroRegionId": "transilvania",
+  "summary": "Maramureșul este o regiune geografică și etno-culturală aflată pe teritoriul României și Ucrainei, alcătuită din Depresiunea Maramureșului, aflată pe cursul superior al văii Tisei, și versanții munților care o înconjoară: Munții Oașului, Gutâi, Țibleș și Rodnei spre vest și sud, și Munții Maramureșului la est și nord.",
+  "geography": "Maramureșul este o regiune geografică și etno-culturală aflată pe teritoriul României și Ucrainei, alcătuită din Depresiunea Maramureșului, aflată pe cursul superior al văii Tisei, și versanții munților care o înconjoară: Munții Oașului, Gutâi, Țibleș și Rodnei spre vest și sud, și Munții Maramureșului la est și nord.",
+  "representativeVillages": [
+    "Ocna Șugatag",
+    "Borșa",
+    "Botiza",
+    "Bârsana",
+    "Ieud",
+    "Desești",
+    "Moisei",
+    "Săpânța",
+    "Vadu Izei"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [
+    {
+      "id": "etnomon-casa-mesteroaiei-casa-turda-0",
+      "name": "Casa meşteroaiei (Casa Turda)",
+      "description": "Proveniență: Săpânţa, com. Săpânţa, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: secolul XVIII. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-atelier-1",
+      "name": "Atelier",
+      "description": "Proveniență: Călineşti, com. Călineşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: mijlocul secolului al XIX-lea. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-batoza-de-treierat-2",
+      "name": "Batoză de treierat",
+      "description": "Proveniență: Sârbi, com. Fărcaşa, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: prima jum. a sec. XX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-batoza-3",
+      "name": "\"Batoză\"",
+      "description": "Proveniență: Deseşti, com. Deseşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: prima jum. a sec. XX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-batoza-de-cai-vanturisca-4",
+      "name": "Batoză de cai + vânturişcă",
+      "description": "Proveniență: Deseşti, com. Deseşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: încep. XX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-batoza-5",
+      "name": "Batoză",
+      "description": "Proveniență: Sârbi, com. Budeşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: mijl. sec. XX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-turda-6",
+      "name": "Casa Turda",
+      "description": "Proveniență: Săpânţa, com. Săpânţa, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: sec. XVIII. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-nemesasca-7",
+      "name": "Casă nemeşască",
+      "description": "Proveniență: Deseşti, com. Deseşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: încep. Sec. XX (1910). Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-de-locuit-8",
+      "name": "Casă de locuit",
+      "description": "Proveniență: Călineşti, com. Călineşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: mijlocul secolului al XIX-lea. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-9",
+      "name": "Casă",
+      "description": "Proveniență: Săpânţa, com. Săpânţa, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: începutul secolului XX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-10",
+      "name": "Casă",
+      "description": "Proveniență: Săcel, com. Săcel, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: sf. secolul XIX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-si-sura-11",
+      "name": "Casă şi șură",
+      "description": "Proveniență: Sârbi, com. Budeşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: prima jum. a sec. XIX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-12",
+      "name": "Casă",
+      "description": "Proveniență: Bârsana, com. Bârsana, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: perioada interbelică. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-13",
+      "name": "Casă",
+      "description": "Proveniență: Sârbi, com. Budeşti, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: mijl. sec. XX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "etnomon-casa-cu-vranita-14",
+      "name": "Casă cu vraniţă",
+      "description": "Proveniență: Bârsana, com. Bârsana, jud. Maramureş. Muzeu: Complexul Naţional Muzeal ASTRA - Sibiu. Dată: sec. XX. Etnie: români. Zonă: Maramureş.",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "maramures-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/AF7AE89E595F48CCA9FB92E1B7290B98.jpg",
+      "alt": "Casa meşteroaiei (Casa Turda)",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "maramures-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/thumb/027D7E84DCAA4FCFBDFD17C86BDD86B8.JPG",
+      "alt": "Atelier",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "maramures-etnomon-img-3",
+      "src": "https://etnomon.cimec.ro/pics/thumb/89AECFBACB2F43258449EED251F0D93C.JPG",
+      "alt": "Batoză de treierat",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    },
+    {
+      "id": "maramures-etnomon-img-4",
+      "src": "https://etnomon.cimec.ro/pics/thumb/3E1FD2E042BB406FB763E37BD1AE1BC3.JPG",
+      "alt": "\"Batoză\"",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureş",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monumente (pagina 4)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Maramure%C8%99",
+      "title": "Maramureș",
+      "retrievedAt": "2026-06-27T17:12:27.929Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Maramureșul este o regiune geografică și etno-culturală aflată pe teritoriul României și Ucrainei, alcătuită din Depresiunea Maramureșului, aflată pe cursul superior al văii Tisei, și versanții munților care o înconjoară: Munții Oașului, Gutâi, Țibleș și Rodnei spre vest și sud, "
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:49.140Z",
+      "excerpt": "Străvechi ținut românesc remarcat prin varietatea peisajelor, bogăția culturii populare tradiționale. Localități: Ocna Șugatag, Borșa, Botiza, Bârsana, Ieud, Desești, Moisei, Săpânța, Vadu Izei."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+      "title": "ETNOMON – Maramureş",
+      "retrievedAt": "2026-06-27T17:12:14.607Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "4 monumente (pagina 4)"
+    }
+  ]
+}

@@ -7,7 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ignore-pattern .next --ignore-pattern next-env.d.ts",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "scrape:subzone": "tsx scripts/scrape/run-subzone.ts",
+    "scrape:macro": "tsx scripts/scrape/run-macro.ts",
+    "validate:drafts": "tsx scripts/validate/validate-drafts.ts",
+    "validate:published": "tsx scripts/validate/validate-published.ts",
+    "publish:draft": "tsx scripts/publish/publish-draft.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.2",
@@ -26,10 +31,12 @@
     "@types/node": "^22.10.1",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
+    "cheerio": "^1.2.0",
     "eslint": "^9.17.0",
     "eslint-config-next": "^15.5.15",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.8.2",
+    "tsx": "^4.22.4",
     "typescript": "^5.7.2"
   }
 }
