@@ -244,8 +244,8 @@ export const countyToRegion: Record<string, RegionMeta> = {
     historicalRegion: "Ţara Oaşului"
   },
   SIBIU: {
-    regionId: "transilvania",
-    name: "Transilvania",
+    regionId: "marginimea-sibiului",
+    name: "Mărginimea Sibiului",
     subzone: "Marginimea Sibiului si Tara Oltului",
     historicalRegion: "Mărginimea Sibiului"
   },
