@@ -15,6 +15,7 @@ Interactive map showcasing regional ethnographic traditions and cultural knowled
 - **Macro-region navigation**: 6 ethnographic macro-regions (Transilvania, Banat, Oltenia, Muntenia, Moldova, Dobrogea).
 - **Historical subzones**: 22 PDF-defined zones; clicking a county shows subzone-specific geography, villages, images, and sources.
 - **Source citations**: Games, costumes, traditions, and images link back to verified sources (ETNOMON, Wikipedia, official PDF baseline).
+- **Recent Updates**: Mărginimea Sibiului data has been integrated and published.
 - **Content pipeline**: Scrape → review → publish workflow for maintaining subzone JSON (see `spec/`).
 - **Responsive design**: Optimized for desktop and mobile with a modal-based detail view on small screens.
 
@@ -45,6 +46,17 @@ npm run validate:published
 # Aggregate published subzones into macro region files
 npm run scrape:macro -- --force
 ```
+
+## Data Structure
+
+The `data/` directory organizes raw and processed information:
+
+- `/data/regions/`: High-level ethnographic macro-regions (e.g., `transilvania.json`).
+- `/data/subzones/`: Production-ready, validated JSON data for specific subzones, consumed directly by the UI.
+- `/data/drafts/`: Staging area for curating new ethnographic content before publishing.
+- `/data/seeds/`: Configuration files mapping subzones to macro-regions and external sources.
+- `/data/raw/`: Original, unprocessed data sources.
+- `romania-adm1-simplified.geojson`: The geographic boundary data for the map.
 
 Full documentation: [`spec/README.md`](spec/README.md).
 

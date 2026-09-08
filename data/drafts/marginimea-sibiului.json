@@ -1,9 +1,11 @@
 {
   "id": "marginimea-sibiului",
+  "macroRegionId": "marginimea-sibiului",
+  "status": "approved",
+  "confidence": "high",
   "code": "MS",
   "name": "Mărginimea Sibiului",
   "summary": "O zonă etnofolclorică de o bogăție culturală remarcabilă, situată la sud de Sibiu, cunoscută pentru conservarea portului și a tradițiilor pastorale.",
-  "status": "draft",
   "costumes": [
     {
       "id": "port-barbatesc-marginime",
