@@ -8,12 +8,26 @@
     {
       "id": "port-barbatesc-marginime",
       "name": "Portul bărbătesc",
-      "description": "Portul bărbătesc tradițional din Mărginimea Sibiului include cămașă de cânepă sau bumbac, șerpar, laibere sau cojoace și cioareci de lână, purtate cu căciulă neagră."
+      "description": "Portul bărbătesc tradițional din Mărginimea Sibiului include cămașă de cânepă sau bumbac, șerpar, laibere sau cojoace și cioareci de lână, purtate cu căciulă neagră.",
+      "sources": [
+        {
+          "url": "https://dspace.bcucluj.ro/handle/123456789/145452",
+          "title": "Monografia Comunei Rășinari",
+          "retrievedAt": "2026-09-08T12:00:00Z"
+        }
+      ]
     },
     {
       "id": "port-femeiesc-marginime",
       "name": "Portul femeiesc",
-      "description": "Portul femeiesc este caracterizat prin iie cu ciupag, șurț de lână, crătințe cu alesături și purtarea opincilor sau a cizmelor, completat de cârpe de păr la sărbători."
+      "description": "Portul femeiesc este caracterizat prin iie cu ciupag, șurț de lână, crătințe cu alesături și purtarea opincilor sau a cizmelor, completat de cârpe de păr la sărbători.",
+      "sources": [
+        {
+          "url": "https://dspace.bcucluj.ro/handle/123456789/143514",
+          "title": "Monografia Comunei Gura Râului",
+          "retrievedAt": "2026-09-08T12:00:00Z"
+        }
+      ]
     }
   ],
   "traditions": [
