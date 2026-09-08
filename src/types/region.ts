@@ -6,7 +6,8 @@ export const regionIds = [
   "oltenia",
   "muntenia",
   "moldova",
-  "dobrogea"
+  "dobrogea",
+  "marginimea-sibiului"
 ] as const;
 export type RegionId = (typeof regionIds)[number];
 

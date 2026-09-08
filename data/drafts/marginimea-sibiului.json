@@ -1,0 +1,69 @@
+{
+  "id": "marginimea-sibiului",
+  "macroRegionId": "marginimea-sibiului",
+  "status": "approved",
+  "confidence": "high",
+  "code": "MS",
+  "name": "Mărginimea Sibiului",
+  "summary": "O zonă etnofolclorică de o bogăție culturală remarcabilă, situată la sud de Sibiu, cunoscută pentru conservarea portului și a tradițiilor pastorale.",
+  "costumes": [
+    {
+      "id": "port-barbatesc-marginime",
+      "name": "Portul bărbătesc",
+      "description": "Portul bărbătesc tradițional din Mărginimea Sibiului include cămașă de cânepă sau bumbac, șerpar, laibere sau cojoace și cioareci de lână, purtate cu căciulă neagră.",
+      "sources": [
+        {
+          "url": "https://dspace.bcucluj.ro/handle/123456789/145452",
+          "title": "Monografia Comunei Rășinari",
+          "retrievedAt": "2026-09-08T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "port-femeiesc-marginime",
+      "name": "Portul femeiesc",
+      "description": "Portul femeiesc este caracterizat prin iie cu ciupag, șurț de lână, crătințe cu alesături și purtarea opincilor sau a cizmelor, completat de cârpe de păr la sărbători.",
+      "sources": [
+        {
+          "url": "https://dspace.bcucluj.ro/handle/123456789/143514",
+          "title": "Monografia Comunei Gura Râului",
+          "retrievedAt": "2026-09-08T12:00:00Z"
+        }
+      ]
+    }
+  ],
+  "traditions": [
+    {
+      "id": "caluserul-marginime",
+      "name": "Călușerul",
+      "description": "Joc ritualic spectaculos, călușerul este o tradiție ce se desfășura în perioada sărbătorilor de iarnă, fiind un element central al identității tinerilor (junii)."
+    }
+  ],
+  "games": [
+    {
+      "id": "de-a-portocala-si-lamaia",
+      "name": "De-a portocala și lămăia",
+      "description": "Joc tradițional pentru copii, menționat în monografia comunei Rășinari, implicând alegerea a doi vătavi și împărțirea copiilor în două tabere."
+    }
+  ],
+  "representativeVillages": [
+    "Gura Râului",
+    "Rășinari",
+    "Săliște",
+    "Jina"
+  ],
+  "images": [
+    {
+      "id": "rasinariu-1",
+      "src": "/images/regions/marginimea-sibiului/rasinariu_1.jpg",
+      "alt": "Imagine din monografia Rășinari",
+      "credit": "Monografia Comunei Rășinari"
+    },
+    {
+      "id": "rasinariu-2",
+      "src": "/images/regions/marginimea-sibiului/rasinariu_2.jpg",
+      "alt": "Imagine din monografia Rășinari",
+      "credit": "Monografia Comunei Rășinari"
+    }
+  ]
+}
