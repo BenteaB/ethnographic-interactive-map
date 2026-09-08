@@ -1,0 +1,48 @@
+{
+  "id": "tara-hategului",
+  "name": "Hațeg Land",
+  "macroRegionId": "transilvania",
+  "summary": "Hațeg Land is a historical, distinct folkloric, and ethnographic land in the south-west corner of Transylvania, Hunedoara county, Romania. Hațeg Land includes the depression with the same name, but its \"zone of influence\" also includes the settlements located on the upper course of the Strei, until its confluence with the Mureș. Hațeg Land is one of the richest micro-regions in Romania from a historical point of view: here are some of the most important monuments of architecture and archaeology in the country. Also, in Hațeg Land, one of the most ambitious hydroelectric arrangements in the country was carried out. The area is also known for the dinosaur fossils found here by Graf Nopcsa. Arable land and for animal husbandry, forestry, and hunting.",
+  "geography": "Hațeg Land is a historical, distinct folkloric, and ethnographic land in the south-west corner of Transylvania, Hunedoara county, Romania. Hațeg Land includes the depression with the same name, but its \"zone of influence\" also includes the settlements located on the upper course of the Strei, until its confluence with the Mureș. Hațeg Land is one of the richest micro-regions in Romania from a historical point of view: here are some of the most important monuments of architecture and archaeology in the country. Also, in Hațeg Land, one of the most ambitious hydroelectric arrangements in the country was carried out. The area is also known for the dinosaur fossils found here by Graf Nopcsa. Arable land and for animal husbandry, forestry, and hunting.",
+  "representativeVillages": [
+    "Râu de Mori",
+    "Densuș",
+    "Sarmizegetusa",
+    "Sălașu de Sus"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "tara-hategului-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HategMap1607.jpg/330px-HategMap1607.jpg",
+      "alt": "Hațeg Land",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_Ha%C8%9Begului",
+          "title": "Hațeg Land",
+          "retrievedAt": "2026-06-27T17:13:27.704Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Hațeg Land is a historical, distinct folkloric, and ethnographic land in the south-west corner of Transylvania, Hunedoara county, Romania. Hațeg Land includes the depression with the same name, but its \"zone of influence\" also includes the settlements located on the upper course of the Strei."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_Ha%C8%9Begului",
+      "title": "Hațeg Land",
+      "retrievedAt": "2026-06-27T17:13:27.704Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Hațeg Land is a historical, distinct folkloric, and ethnographic land in the south-west corner of Transylvania, Hunedoara county, Romania. Hațeg Land includes the depression with the same name, but its \"zone of influence\" also includes the settlements located on the upper course of the Strei."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:27.705Z",
+      "excerpt": "Located in the Hațeg Depression, in the south-east of Hunedoara county, with the Strei Valley in the west. Representative villages: Râu de Mori, Densuș, Sarmizegetusa, Sălașu de Sus."
+    }
+  ]
+}

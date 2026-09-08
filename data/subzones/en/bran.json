@@ -1,0 +1,25 @@
+{
+  "id": "bran",
+  "name": "Bran",
+  "macroRegionId": "transilvania",
+  "summary": "The Bran corridor is one of the few long mountain passes crossing the Southern Carpathians, between Muntenia and Transylvania. Representative villages: Bran, Moeciu, Fundata, Râșnov.",
+  "geography": "The Bran corridor is one of the few long mountain passes crossing the Southern Carpathians, between Muntenia and Transylvania. Representative villages: Bran, Moeciu, Fundata, Râșnov.",
+  "representativeVillages": [
+    "Bran",
+    "Moeciu",
+    "Fundata",
+    "Râșnov"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [],
+  "sources": [
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:12:39.113Z",
+      "excerpt": "The Bran corridor is one of the few long mountain passes crossing the Southern Carpathians, between Muntenia and Transylvania. Representative villages: Bran, Moeciu, Fundata, Râșnov."
+    }
+  ]
+}

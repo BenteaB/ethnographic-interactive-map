@@ -1,0 +1,79 @@
+{
+  "id": "marginimea-sibiului",
+  "name": "Mărginimea Sibiului",
+  "macroRegionId": "transilvania",
+  "summary": "An ethno-folkloric area of remarkable cultural richness, located south of Sibiu, known for the preservation of traditional costumes and pastoral traditions.",
+  "geography": "Mărginimea Sibiului is an ethno-folkloric area located south of Sibiu, characterized by pastoral villages at the foot of the Cindrel Mountains, with a unique cultural and architectural heritage.",
+  "representativeVillages": [
+    "Gura Râului",
+    "Rășinari",
+    "Săliște",
+    "Jina"
+  ],
+  "games": [
+    {
+      "id": "de-a-portocala-si-lamaia",
+      "name": "Orange and Lemon Game",
+      "description": "A traditional children's game, mentioned in the monograph of Rășinari commune, involving the selection of two leaders and dividing the children into two teams."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "port-barbatesc-marginime",
+      "name": "Men's costume",
+      "description": "The traditional men's costume in Mărginimea Sibiului includes a hemp or cotton shirt, a wide leather belt (șerpar), vests (laibere) or sheepskin coats (cojoace), and wool trousers (cioareci), worn with a black cap.",
+      "sources": [
+        {
+          "url": "https://dspace.bcucluj.ro/handle/123456789/145452",
+          "title": "Monograph of Rășinari Commune",
+          "retrievedAt": "2026-09-08T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "port-femeiesc-marginime",
+      "name": "Women's costume",
+      "description": "The women's costume is characterized by a blouse with decorative embroidery (iie cu ciupag), a wool apron, skirts with embroidery (crătințe cu alesături), and the wearing of traditional leather sandals (opinci) or boots, completed by headscarves on holidays.",
+      "sources": [
+        {
+          "url": "https://dspace.bcucluj.ro/handle/123456789/143514",
+          "title": "Monograph of Gura Râului Commune",
+          "retrievedAt": "2026-09-08T12:00:00Z"
+        }
+      ]
+    }
+  ],
+  "traditions": [
+    {
+      "id": "caluserul-marginime",
+      "name": "Călușerul",
+      "description": "A spectacular ritual dance, the Călușer is a tradition that took place during the winter holidays, being a central element of the identity of young men (junii)."
+    }
+  ],
+  "images": [
+    {
+      "id": "rasinariu-1",
+      "src": "/images/regions/marginimea-sibiului/rasinariu_1.jpg",
+      "alt": "Image from the Rășinari monograph",
+      "credit": "Monografia Comunei Rășinari"
+    },
+    {
+      "id": "rasinariu-2",
+      "src": "/images/regions/marginimea-sibiului/rasinariu_2.jpg",
+      "alt": "Image from the Rășinari monograph",
+      "credit": "Monografia Comunei Rășinari"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://dspace.bcucluj.ro/handle/123456789/145452",
+      "title": "Monograph of Rășinari Commune",
+      "retrievedAt": "2026-09-08T12:00:00Z"
+    },
+    {
+      "url": "https://dspace.bcucluj.ro/handle/123456789/143514",
+      "title": "Monograph of Gura Râului Commune",
+      "retrievedAt": "2026-09-08T12:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dobrogea",
+  "code": "RO-DB",
+  "name": "Dobrogea",
+  "summary": "The Danube Delta, located mostly in Dobrogea, Romania, and partially in Ukraine, is the second largest and best preserved of the European deltas.",
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "tulcea-delta-dunarii-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/767A1F0691A64B83B3CEA689E2A8D084.JPG",
+      "alt": "Dam",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
+          "title": "ETNOMON – Danube Delta",
+          "retrievedAt": "2026-06-27T17:13:24.242Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "5 monuments (page 1)"
+        }
+      ]
+    },
+    {
+      "id": "tulcea-delta-dunarii-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/thumb/0EAE2E355E2A4C6CAA391A6AD8B37E6E.JPG",
+      "alt": "Floating bridge",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
+          "title": "ETNOMON – Danube Delta",
+          "retrievedAt": "2026-06-27T17:13:24.242Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "5 monuments (page 1)"
+        }
+      ]
+    },
+    {
+      "id": "tulcea-delta-dunarii-etnomon-img-3",
+      "src": "https://etnomon.cimec.ro/pics/thumb/0FFF3BB519F94AF2B214ADE92472805A.JPG",
+      "alt": "Floating bridge",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
+          "title": "ETNOMON – Danube Delta",
+          "retrievedAt": "2026-06-27T17:13:24.242Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "5 monuments (page 1)"
+        }
+      ]
+    },
+    {
+      "id": "tulcea-delta-dunarii-etnomon-img-4",
+      "src": "https://etnomon.cimec.ro/pics/thumb/56D36050CC2547E9A93D1E15E0267DF5.JPG",
+      "alt": "Floating bridge",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
+          "title": "ETNOMON – Danube Delta",
+          "retrievedAt": "2026-06-27T17:13:24.242Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "5 monuments (page 1)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Delta_Dun%C4%83rii",
+      "title": "Danube Delta",
+      "retrievedAt": "2026-06-27T17:13:22.694Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "The Danube Delta, located mostly in Dobrogea, Romania, and partially in Ukraine, is the second largest and best preserved of the European deltas."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:22.695Z",
+      "excerpt": "The Tulcea ethnographic zone overlaps the Danube Delta, with the Niculițel and Babadag subzones. Representative villages: Crișan, Murighiol, Sf. Gheorghe, Mila 23."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Delta%20Dun%C4%83rii",
+      "title": "ETNOMON – Danube Delta",
+      "retrievedAt": "2026-06-27T17:13:24.242Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "5 monuments (page 1)"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "podisul-tarnavelor",
+  "name": "Târnava Plateau",
+  "macroRegionId": "transilvania",
+  "summary": "The Târnava Plateau is one of the three subunits of the Transylvanian Tableland (DCT), it is located between the Mureș and Olt rivers, has a more rugged relief and higher altitudes to the east and lower to the west and south, it has two subunits: the Hârtibaciu Plateau in the SE and the Secaș Plateau in the N-W.",
+  "geography": "The Târnava Plateau is one of the three subunits of the Transylvanian Tableland (DCT), it is located between the Mureș and Olt rivers, has a more rugged relief and higher altitudes to the east and lower to the west and south, it has two subunits: the Hârtibaciu Plateau in the SE and the Secaș Plateau in the N-W.",
+  "representativeVillages": [
+    "Axente Sever",
+    "Biertan"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "podisul-tarnavelor-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kisk%C3%BCk%C3%BCll%C5%91v%C3%B6lgye2.jpg/330px-Kisk%C3%BCk%C3%BCll%C5%91v%C3%B6lgye2.jpg",
+      "alt": "Târnava Plateau",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Podi%C8%99ul_T%C3%A2rnavelor",
+          "title": "Târnava Plateau",
+          "retrievedAt": "2026-06-27T17:13:18.694Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "The Târnava Plateau is one of the three subunits of the Transylvanian Tableland (DCT), it is located between the Mureș and Olt rivers, has a more rugged relief and higher altitudes to the east and lower to the west and south, it has two subunits: the Hârtibaciu Plateau in the SE."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Podi%C8%99ul_T%C3%A2rnavelor",
+      "title": "Târnava Plateau",
+      "retrievedAt": "2026-06-27T17:13:18.694Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "The Târnava Plateau is one of the three subunits of the Transylvanian Tableland (DCT), it is located between the Mureș and Olt rivers, has a more rugged relief and higher altitudes to the east and lower to the west and south, it has two subunits: the Hârtibaciu Plateau in the SE."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:18.697Z",
+      "excerpt": "Occupies the south of Mureș county, south-west of Harghita, north of Brașov and Sibiu, west of Alba. Representative villages: Axente Sever, Biertan."
+    }
+  ]
+}

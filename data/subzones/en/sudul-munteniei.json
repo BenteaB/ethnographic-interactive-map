@@ -1,0 +1,46 @@
+{
+  "id": "sudul-munteniei",
+  "name": "Southern Muntenia",
+  "macroRegionId": "muntenia",
+  "summary": "Muntenia is a historical region in southern Romania, a component part of Wallachia. Its boundaries are: to the north the Carpathian Mountains, to the west the Olt River, to the south and east the Danube River, and to the north-east the Milcov, Putna, and Siret rivers.",
+  "geography": "Muntenia is a historical region in southern Romania, a component part of Wallachia. Its boundaries are: to the north the Carpathian Mountains, to the west the Olt River, to the south and east the Danube River, and to the north-east the Milcov, Putna, and Siret rivers.",
+  "representativeVillages": [
+    "Suhaia",
+    "Drăgănești Vlașca"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "sudul-munteniei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/20140703_leaving_Otopeni_03.jpg/330px-20140703_leaving_Otopeni_03.jpg",
+      "alt": "Muntenia",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Muntenia",
+          "title": "Muntenia",
+          "retrievedAt": "2026-06-27T17:13:20.694Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Muntenia is a historical region in southern Romania, a component part of Wallachia. Its boundaries are: to the north the Carpathian Mountains, to the west the Olt River, to the south and east the Danube River, and to the north-east the Milcov, Putna, and Siret rivers."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Muntenia",
+      "title": "Muntenia",
+      "retrievedAt": "2026-06-27T17:13:20.694Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Muntenia is a historical region in southern Romania, a component part of Wallachia. Its boundaries are: to the north the Carpathian Mountains, to the west the Olt River, to the south and east the Danube River, and to the north-east the Milcov, Putna, and Siret rivers."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:20.696Z",
+      "excerpt": "Located in southern Muntenia, the Teleorman ethnographic area occupies the central part of the Romanian Plain. Representative villages: Suhaia, Drăgănești Vlașca."
+    }
+  ]
+}

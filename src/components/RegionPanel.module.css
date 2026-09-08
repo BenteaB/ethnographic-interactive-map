@@ -3,6 +3,29 @@
   border-radius: var(--radius-lg);
   background: var(--color-surface);
   padding: 1rem;
+  position: relative;
+}
+
+.languageSwitcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.flagButton {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.2rem 0.4rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.flagButton:hover {
+  background: #f3ede2;
+  border-color: var(--map-stroke-idle);
 }
 
 .header h2 {
@@ -13,7 +36,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 3rem; /* Room for switcher */
 }
+/* ...rest of existing styles */
 
 .clearButton {
   background: transparent;

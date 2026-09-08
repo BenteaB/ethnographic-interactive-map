@@ -1,0 +1,61 @@
+{
+  "id": "tinutul-neamtului",
+  "name": "Neamț Land",
+  "macroRegionId": "moldova",
+  "summary": "The Neamț ethno-folkloric area is located in the central-northern part of Moldova. Representative villages: Agapia, Tâmpești.",
+  "geography": "The Neamț ethno-folkloric area is located in the central-northern part of Moldova. Representative villages: Agapia, Tâmpești.",
+  "representativeVillages": [
+    "Agapia",
+    "Tâmpești"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "tinutul-neamtului-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/6C423473D3E54417A14BCB37EFF42B39.JPG",
+      "alt": "Workshop",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Neam%C5%A3",
+          "title": "ETNOMON – Neamț",
+          "retrievedAt": "2026-06-27T17:13:17.211Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 1)"
+        }
+      ]
+    },
+    {
+      "id": "tinutul-neamtului-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/thumb/B05FF031C9F7401E83F49464860ACA96.JPG",
+      "alt": "Bell ringer's workshop",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Neam%C5%A3",
+          "title": "ETNOMON – Neamț",
+          "retrievedAt": "2026-06-27T17:13:17.211Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 1)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:15.681Z",
+      "excerpt": "The Neamț ethno-folkloric area is located in the central-northern part of Moldova. Representative villages: Agapia, Tâmpești."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Neam%C5%A3",
+      "title": "ETNOMON – Neamț",
+      "retrievedAt": "2026-06-27T17:13:17.211Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "2 monuments (page 1)"
+    }
+  ]
+}

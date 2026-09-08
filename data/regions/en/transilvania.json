@@ -1,0 +1,168 @@
+{
+  "id": "transilvania",
+  "code": "RO-TR",
+  "name": "Transylvania",
+  "summary": "The Bran corridor is one of the few long passes for crossing over the Southern Carpathians, between Muntenia and Transylvania. Representative villages: Bran, Moeciu, Fundata, Râșnov. Țara Moților, also known as the Land of Stone, is an ethno-geographic region in Romania. Țara Oașului is a popular Romania, meaning a Romanian geographical, historical, and ethno-cultural region made up of the Oaș Depression and the mountains that border it, the Oaș Mountains and the Gutâi Mountains with their ramifications. It is located in the north of Transylvania, in the counties of Maramureș and Satu Mare.",
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "tara-motilor-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/RO_AB_Barlesti_58.jpg/330px-RO_AB_Barlesti_58.jpg",
+      "alt": "Țara Moților",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_Mo%C8%9Bilor",
+          "title": "Țara Moților",
+          "retrievedAt": "2026-06-27T17:12:41.058Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Țara Moților, also known as the Land of Stone, is an ethno-geographic region in Romania."
+        }
+      ]
+    },
+    {
+      "id": "tara-oasului-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Harta_%C8%9Aara_Oa%C8%99ului.png/330px-Harta_%C8%9Aara_Oa%C8%99ului.png",
+      "alt": "Țara Oașului",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_Oa%C8%99ului",
+          "title": "Țara Oașului",
+          "retrievedAt": "2026-06-27T17:12:54.601Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Țara Oașului is a popular Romania, meaning a Romanian geographical, historical, and ethno-cultural region made up of the Oaș Depression and the mountains that border it, the Oaș Mountains and the Gutâi Mountains with their ramifications. It is located in the north of Transylvania, in the counties of Maramureș"
+        }
+      ]
+    },
+    {
+      "id": "tara-fagarasului-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/B128E78924854A8C8827FC5AAAAC6B38.JPG",
+      "alt": "Shed",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 5)"
+        }
+      ]
+    },
+    {
+      "id": "tara-fagarasului-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/thumb/EDA6A53FEC464F12861F92A1A3319550.JPG",
+      "alt": "Ferryman's house",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 5)"
+        }
+      ]
+    },
+    {
+      "id": "tara-fagarasului-etnomon-img-3",
+      "src": "https://etnomon.cimec.ro/pics/thumb/4B712C3450EA4046A86E9D2FF075B595.jpg",
+      "alt": "House (household)",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 5)"
+        }
+      ]
+    },
+    {
+      "id": "tara-fagarasului-etnomon-img-4",
+      "src": "https://etnomon.cimec.ro/pics/thumb/C2F1F272A14D4373B9528F90E4546B9D.JPG",
+      "alt": "House",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 5)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:12:39.113Z",
+      "excerpt": "The Bran corridor is one of the few long passes for crossing over the Southern Carpathians, between Muntenia and Transylvania. Representative villages: Bran, Moeciu, Fundata, Râșnov."
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_Mo%C8%9Bilor",
+      "title": "Țara Moților",
+      "retrievedAt": "2026-06-27T17:12:41.058Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Țara Moților, also known as the Land of Stone, is an ethno-geographic region in Romania."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:12:41.060Z",
+      "excerpt": "Situated in the central part of the Apuseni Mountains, in the Arieș River basin. It belongs to Alba and Cluj counties. Representative villages: Arieșeni, Gârda de Sus, Avram Iancu, Bistra, Albac, Lupșa, Sălciua, Scărișoara."
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_Oa%C8%99ului",
+      "title": "Țara Oașului",
+      "retrievedAt": "2026-06-27T17:12:54.601Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Țara Oașului is a popular Romania, meaning a Romanian geographical, historical, and ethno-cultural region made up of the Oaș Depression and the mountains that border it, the Oaș Mountains and the Gutâi Mountains with their ramifications. It is located in the north of Transylvania, in the counties of Maramureș"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:12:54.603Z",
+      "excerpt": "The ethnographic zone is situated in the northwestern extremity of the country, in the north and northeast of Satu Mare County. Representative villages: Călinești Oaș and Bixad."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:12:56.501Z",
+      "excerpt": "Situated in the NE part of the Transylvanian Plateau, in the east and northeast of Bistrița-Năsăud County. Representative villages: Șanț, Bistrița Bârgăului, Prundul Bârgăului, Colibița."
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_F%C4%83g%C4%83ra%C8%99ului",
+      "title": "Țara Făgărașului",
+      "retrievedAt": "2026-06-27T17:12:58.505Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Țara Făgărașului is a depression and a historical land in Transylvania, situated along the middle course of the Olt River, with the center in the medieval fortress of Făgăraș. In 1876, the territory of Țara Făgărașului was organized into the Făgăraș county, the administrative unit preceding the"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:14:44.267Z",
+      "excerpt": "Situated in the contact area of the Făgăraș, Perșani, Lotru mountains and the Hârtibaciu Plateau. Occupies the central-west of Brașov County and the southeast of Sibiu County. Representative villages: Sâmbăta de Sus, Lisa."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+      "title": "ETNOMON – Ţara Făgăraşului",
+      "retrievedAt": "2026-06-27T17:14:50.114Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "2 monuments (page 5)"
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/%C8%9Ainutul_Secuiesc",
+      "title": "Ținutul Secuiesc",
+      "retrievedAt": "2026-06-27T17:13:14.092Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Ținutul Secuiesc is – in the historical-ethnographic sense – the region in the southeastern part of Transylvania, inhabited mostly by Székelys, which includes the territories of the former Székely seats. The respective territories are currently included administratively in the counties of Alba"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "muntenia",
+  "code": "RO-MU",
+  "name": "Muntenia",
+  "summary": "Muntenia is a historical region in southern Romania, a component of the Romanian Land. Its boundaries are: to the north the Carpathian Mountains, to the west the Olt River, to the south and east the Danube River, and to the northeast the Milcov, Putna, and Siret rivers. Representative ethno-folklore area in the northeast of Argeș County. Representative villages: Lerești, Rucăr, Dâmbovicioara. The Prahova Valley is one of the most renowned tourist regions in the Carpathian Mountains of Romania, being situated on the route of the Prahova River. The Prahova Valley is situated in the southeastern part of Romania, in the north of Muntenia, in the upper and middle basin of the river of the same name, a tributary of the Ialomița. It is bordered to the south by the Ploiești piedmont plain, to the west by Dâmbovița County across the Bucegi massif, to the north by the Brașov depression and the city of Brașov, and to the east by the Doftana Valley, across the Baiului and Piatra Mare mountains. In the southern sector, the Prahova Valley forms the border between the Getic Subcarpathians and the Curvature Subcarpathians.",
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "sudul-munteniei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/20140703_leaving_Otopeni_03.jpg/330px-20140703_leaving_Otopeni_03.jpg",
+      "alt": "Muntenia",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Muntenia",
+          "title": "Muntenia",
+          "retrievedAt": "2026-06-27T17:13:20.694Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Muntenia is a historical region in southern Romania, a component of the Romanian Land. Its boundaries are: to the north the Carpathian Mountains, to the west the Olt River, to the south and east the Danube River, and to the northeast the Milcov, Putna, and Siret rivers."
+        }
+      ]
+    },
+    {
+      "id": "valea-prahovei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Valea_Prahovei.JPG/330px-Valea_Prahovei.JPG",
+      "alt": "Prahova Valley",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Valea_Prahovei",
+          "title": "Prahova Valley",
+          "retrievedAt": "2026-06-27T17:14:10.202Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "The Prahova Valley is one of the most renowned tourist regions in the Carpathian Mountains of Romania, being situated on the route of the Prahova River. The Prahova Valley is situated in the southeastern part of Romania, in the north of Muntenia, in the upper and middle basin of the river of the same name, a tributary of the Ialomița."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Muntenia",
+      "title": "Muntenia",
+      "retrievedAt": "2026-06-27T17:13:20.694Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Muntenia is a historical region in southern Romania, a component of the Romanian Land. Its boundaries are: to the north the Carpathian Mountains, to the west the Olt River, to the south and east the Danube River, and to the northeast the Milcov, Putna, and Siret rivers."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:20.696Z",
+      "excerpt": "Situated in the south of Muntenia, the Teleorman ethnographic zone occupies the central part of the Romanian Plain. Representative villages: Suhaia, Drăgănești Vlașca."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:47.190Z",
+      "excerpt": "Representative ethno-folklore area in the northeast of Argeș County. Representative villages: Lerești, Rucăr, Dâmbovicioara."
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/Valea_Prahovei",
+      "title": "Prahova Valley",
+      "retrievedAt": "2026-06-27T17:14:10.202Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "The Prahova Valley is one of the most renowned tourist regions in the Carpathian Mountains of Romania, being situated on the route of the Prahova River. The Prahova Valley is situated in the southeastern part of Romania, in the north of Muntenia, in the upper and middle basin of the river of the same name, a tributary of the Ialomița."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:14:10.204Z",
+      "excerpt": "Situated in the central-northern part of Muntenia, in Prahova County. Representative villages: Breaza, Telega, Cornu, Cerașu, Valea Doftanei, Cheia, Brebu."
+    }
+  ]
+}

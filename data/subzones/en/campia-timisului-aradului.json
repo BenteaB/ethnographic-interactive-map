@@ -1,0 +1,48 @@
+{
+  "id": "campia-timisului-aradului",
+  "name": "Timiș Plain and Arad Plain",
+  "macroRegionId": "banat",
+  "summary": "Banat is a historical province divided today between Romania, Serbia, and a very small part of Hungary.",
+  "geography": "Banat is a historical province divided today between Romania, Serbia, and a very small part of Hungary.",
+  "representativeVillages": [
+    "Lenauheim",
+    "Teremia Mare",
+    "Șiria",
+    "Ghioroc"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "campia-timisului-aradului-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Banat_location.svg/langro-330px-Banat_location.svg.png",
+      "alt": "Banat",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Banat",
+          "title": "Banat",
+          "retrievedAt": "2026-06-27T17:13:42.199Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Banat is a historical province divided today between Romania, Serbia, and a very small part of Hungary."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Banat",
+      "title": "Banat",
+      "retrievedAt": "2026-06-27T17:13:42.199Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Banat is a historical province divided today between Romania, Serbia, and a very small part of Hungary."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:42.200Z",
+      "excerpt": "Timiș Plain in western Romania, with the tourist villages Lenauheim and Teremia Mare. Arad Plain on the lower courses of the Mureș, with Șiria and Ghioroc."
+    }
+  ]
+}

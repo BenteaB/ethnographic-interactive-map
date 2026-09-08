@@ -7,19 +7,24 @@ import { getRegionContent } from "@/lib/regions";
 import { getSubzoneFromLookup } from "@/lib/subzones";
 import type { RegionContent, RegionId, RegionSelectionContext, SubzoneContent } from "@/types/region";
 import styles from "./page.module.css";
+import { useI18n } from "@/contexts/I18nContext";
 
 type HomePageClientProps = {
-  subzoneLookup: Record<string, SubzoneContent>;
+  subzoneLookupRo: Record<string, SubzoneContent>;
+  subzoneLookupEn: Record<string, SubzoneContent>;
 };
 
-export function HomePageClient({ subzoneLookup }: HomePageClientProps) {
+export function HomePageClient({ subzoneLookupRo, subzoneLookupEn }: HomePageClientProps) {
   const [selectedRegionId, setSelectedRegionId] = useState<RegionId | null>(null);
   const [selectedContext, setSelectedContext] = useState<RegionSelectionContext | null>(null);
+  const { language } = useI18n();
 
   const selectedRegion: RegionContent | null = useMemo(() => {
     if (!selectedRegionId) return null;
-    return getRegionContent(selectedRegionId);
-  }, [selectedRegionId]);
+    return getRegionContent(selectedRegionId, language);
+  }, [selectedRegionId, language]);
+
+  const subzoneLookup = language === "en" ? subzoneLookupEn : subzoneLookupRo;
 
   const selectedSubzone: SubzoneContent | null = useMemo(() => {
     if (!selectedContext?.subzone) return null;

@@ -1,0 +1,51 @@
+{
+  "id": "gorj",
+  "name": "Gorj",
+  "macroRegionId": "oltenia",
+  "summary": "Gorj County is one of the 41 counties of Romania, located in the Oltenia region. The seat is in the municipality of Târgu Jiu.",
+  "geography": "Gorj County is one of the 41 counties of Romania, located in the Oltenia region. The seat is in the municipality of Târgu Jiu.",
+  "representativeVillages": [
+    "Tismana",
+    "Polovragi",
+    "Baia de Fier",
+    "Arcani",
+    "Peștișani",
+    "Runcu",
+    "Ciuperceni"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "gorj-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Prezentare_Judet_Gorj.jpg/330px-Prezentare_Judet_Gorj.jpg",
+      "alt": "Gorj County",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+          "title": "Gorj County",
+          "retrievedAt": "2026-06-27T17:12:43.054Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Gorj County is one of the 41 counties of Romania, located in the Oltenia region. The seat is in the municipality of Târgu Jiu."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+      "title": "Gorj County",
+      "retrievedAt": "2026-06-27T17:12:43.054Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Gorj County is one of the 41 counties of Romania, located in the Oltenia region. The seat is in the municipality of Târgu Jiu."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:12:43.061Z",
+      "excerpt": "Located in NW Oltenia, on the middle course of the Jiu River. The Gorj ethnofolkloric zone is made up of the Jiu valley and the Sadului valley. Representative villages: Tismana, Polovragi, Baia de Fier, Arcani, Peștișani"
+    }
+  ]
+}

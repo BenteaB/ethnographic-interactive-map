@@ -11,6 +11,7 @@ import type {
   SubzoneContent
 } from "@/types/region";
 import styles from "./RegionPanel.module.css";
+import { useI18n } from "@/contexts/I18nContext";
 
 type RegionPanelProps = {
   region: RegionContent | null;
@@ -99,9 +100,9 @@ function mergeContent(region: RegionContent, subzone: SubzoneContent | null): Di
   };
 }
 
-function ItemList({ items }: { items: RegionItem[] }) {
+function ItemList({ items, noItemsText }: { items: RegionItem[], noItemsText: string }) {
   if (items.length === 0) {
-    return <p className={styles.empty}>No items available yet for this category.</p>;
+    return <p className={styles.empty}>{noItemsText}</p>;
   }
 
   return (
@@ -116,9 +117,9 @@ function ItemList({ items }: { items: RegionItem[] }) {
   );
 }
 
-function SourcesList({ sources }: { sources: SourceCitation[] }) {
+function SourcesList({ sources, noSourcesText }: { sources: SourceCitation[], noSourcesText: string }) {
   if (sources.length === 0) {
-    return <p className={styles.empty}>No sources listed yet.</p>;
+    return <p className={styles.empty}>{noSourcesText}</p>;
   }
 
   const unique = sources.filter(
@@ -139,17 +140,6 @@ function SourcesList({ sources }: { sources: SourceCitation[] }) {
   );
 }
 
-interface Category {
-  id: "games" | "costumes" | "traditions";
-  label: string;
-}
-
-const categories: Category[] = [
-  { id: "games", label: "Games" },
-  { id: "costumes", label: "Costumes" },
-  { id: "traditions", label: "Traditions" }
-];
-
 function PanelContent({
   region,
   subzone,
@@ -161,14 +151,19 @@ function PanelContent({
   selectedContext: RegionSelectionContext | null;
   onClear: () => void;
 }) {
+  const { t } = useI18n();
+
+  const categories = [
+    { id: "games", label: t("games") },
+    { id: "costumes", label: t("costumes") },
+    { id: "traditions", label: t("traditions") }
+  ] as const;
+
   if (!region) {
     return (
       <div className={styles.placeholder}>
-        <h3>Select a region</h3>
-        <p>
-          Choose one highlighted region from the map to view traditional games, costumes, and
-          customs.
-        </p>
+        <h3>{t("selectRegion")}</h3>
+        <p>{t("chooseRegion")}</p>
       </div>
     );
   }
@@ -180,8 +175,8 @@ function PanelContent({
       <header className={styles.header}>
         <div className={styles.headerTop}>
           <p className={styles.code}>{content.code}</p>
-          <button className={styles.clearButton} onClick={onClear} aria-label="Clear selection">
-            &times; Back to map
+          <button className={styles.clearButton} onClick={onClear} aria-label={t("clearSelection")}>
+            &times; {t("clearSelection")}
           </button>
         </div>
         <h2>{content.title}</h2>
@@ -189,12 +184,12 @@ function PanelContent({
         {content.geography ? <p className={styles.geography}>{content.geography}</p> : null}
         {content.villages && content.villages.length > 0 ? (
           <p className={styles.villages}>
-            Representative villages: {content.villages.join(", ")}
+            {t("representativeVillages")}: {content.villages.join(", ")}
           </p>
         ) : null}
         {selectedContext ? (
           <p className={styles.subzoneMeta}>
-            Historical Region: <strong>{selectedContext.subzone}</strong> · County:{" "}
+            {t("historicalRegion")}: <strong>{selectedContext.subzone}</strong> · {t("county")}:{" "}
             <strong>{selectedContext.county}</strong>
           </p>
         ) : null}
@@ -211,16 +206,16 @@ function PanelContent({
 
         {categories.map((category) => (
           <Tabs.Content key={category.id} value={category.id}>
-            <ItemList items={content[category.id]} />
+            <ItemList items={content[category.id]} noItemsText={t("noItems")} />
           </Tabs.Content>
         ))}
       </Tabs.Root>
 
       <section className={styles.gallery}>
-        <h3>Images</h3>
+        <h3>{t("images")}</h3>
         <div className={styles.images}>
           {content.images.length === 0 ? (
-            <p className={styles.empty}>No images available yet.</p>
+            <p className={styles.empty}>{t("noImages")}</p>
           ) : (
             content.images.map((image) => (
               <RegionImage
@@ -235,8 +230,8 @@ function PanelContent({
       </section>
 
       <section className={styles.sources}>
-        <h3>Sources</h3>
-        <SourcesList sources={content.sources} />
+        <h3>{t("sources")}</h3>
+        <SourcesList sources={content.sources} noSourcesText={t("noSources")} />
       </section>
     </>
   );
@@ -248,8 +243,19 @@ export function RegionPanel({
   selectedContext,
   onClearSelection
 }: RegionPanelProps) {
+  const { language, setLanguage } = useI18n();
+
   return (
     <aside className={styles.panel} aria-label="Region details panel">
+      <div className={styles.languageSwitcher}>
+        <button
+          className={styles.flagButton}
+          onClick={() => setLanguage(language === "ro" ? "en" : "ro")}
+          title={`Switch to ${language === "ro" ? "English" : "Romanian"}`}
+        >
+          {language === "ro" ? "🇷🇴" : "🇬🇧"}
+        </button>
+      </div>
       <PanelContent
         region={region}
         subzone={subzone}

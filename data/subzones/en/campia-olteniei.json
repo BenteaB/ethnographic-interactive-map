@@ -1,0 +1,46 @@
+{
+  "id": "campia-olteniei",
+  "name": "Oltenia Plain",
+  "macroRegionId": "oltenia",
+  "summary": "Oltenia is a historical region in southwestern Romania delimited to the east by the Olt River, to the south and west by the Danube, and to the north by the Southern Carpathians.",
+  "geography": "Oltenia is a historical region in southwestern Romania delimited to the east by the Olt River, to the south and west by the Danube, and to the north by the Southern Carpathians.",
+  "representativeVillages": [
+    "Dăbuleni",
+    "Ghighera"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "campia-olteniei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Valea_Oltului-Judetul_Valcea.JPG/330px-Valea_Oltului-Judetul_Valcea.JPG",
+      "alt": "Oltenia",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Oltenia",
+          "title": "Oltenia",
+          "retrievedAt": "2026-06-27T17:13:58.264Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Oltenia is a historical region in southwestern Romania delimited to the east by the Olt River, to the south and west by the Danube, and to the north by the Southern Carpathians."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Oltenia",
+      "title": "Oltenia",
+      "retrievedAt": "2026-06-27T17:13:58.264Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Oltenia is a historical region in southwestern Romania delimited to the east by the Olt River, to the south and west by the Danube, and to the north by the Southern Carpathians."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:58.264Z",
+      "excerpt": "Located in the lower Jiu basin, on the left bank of the Danube, in Dolj County. Representative villages: Dăbuleni and Ghighera."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "oltenia",
+  "code": "RO-OT",
+  "name": "Oltenia",
+  "summary": "Gorj County is one of the 41 counties of Romania, located in the Oltenia region. The capital is the municipality of Târgu Jiu. Vâlcea can refer to: an old, silted valley, with well-individualized slopes, fixed on the vegetation carpet; it is devoid of drainage and has an almost flat, slightly inclined bottom. Vâlcea County. Localities in Romania: Râmnicu Vâlcea, Vâlcea, Alba, Vâlcea, Brașov. Oltenia is a historical region in southwestern Romania delimited to the east by the Olt River, to the south and west by the Danube, and to the north by the Southern Carpathians.",
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "gorj-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Prezentare_Judet_Gorj.jpg/330px-Prezentare_Judet_Gorj.jpg",
+      "alt": "Gorj County",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+          "title": "Gorj County",
+          "retrievedAt": "2026-06-27T17:12:43.054Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Gorj County is one of the 41 counties of Romania, located in the Oltenia region. The capital is the municipality of Târgu Jiu."
+        }
+      ]
+    },
+    {
+      "id": "campia-olteniei-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Valea_Oltului-Judetul_Valcea.JPG/330px-Valea_Oltului-Judetul_Valcea.JPG",
+      "alt": "Oltenia",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Oltenia",
+          "title": "Oltenia",
+          "retrievedAt": "2026-06-27T17:13:58.264Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Oltenia is a historical region in southwestern Romania delimited to the east by the Olt River, to the south and west by the Danube, and to the north by the Southern Carpathians."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+      "title": "Gorj County",
+      "retrievedAt": "2026-06-27T17:12:43.054Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Gorj County is one of the 41 counties of Romania, located in the Oltenia region. The capital is the municipality of Târgu Jiu."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:12:43.061Z",
+      "excerpt": "Situated in NW Oltenia, on the middle course of the Jiu River. The Gorj ethno-folklore zone is made up of the Jiu valley and the Sadului valley. Representative villages: Tismana, Polovragi, Baia de Fier, Arcani, Peștișani."
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/V%C3%A2lcea_(dezambiguizare)",
+      "title": "Vâlcea (disambiguation)",
+      "retrievedAt": "2026-06-27T17:13:25.787Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Vâlcea can refer to: an old, silted valley, with well-individualized slopes, fixed on the vegetation carpet; it is devoid of drainage and has an almost flat, slightly inclined bottom. Vâlcea County. Localities in Romania: Râmnicu Vâlcea, Vâlcea, Alba, Vâlcea, Brașov."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:25.788Z",
+      "excerpt": "Situated on the middle course of the Olt River, between the Făgăraș and Cozia mountains to the east and the Lotru and Căpățânii mountains to the west. Țara Loviștei occupies the northeast of Vâlcea County. Representative villages: Malaia, Vaideeni."
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/Oltenia",
+      "title": "Oltenia",
+      "retrievedAt": "2026-06-27T17:13:58.264Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Oltenia is a historical region in southwestern Romania delimited to the east by the Olt River, to the south and west by the Danube, and to the north by the Southern Carpathians."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The National Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:58.264Z",
+      "excerpt": "Situated in the lower basin of the Jiu River, on the left of the Danube, in Dolj County. Representative villages: Dăbuleni and Ghighera."
+    }
+  ]
+}

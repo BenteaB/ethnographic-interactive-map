@@ -9,8 +9,8 @@ import { buildSubzoneLookup, getSubzoneFromLookup } from "./subzones";
 
 export { buildSubzoneLookup, getSubzoneFromLookup };
 
-export function loadPublishedSubzones(): SubzoneContent[] {
-  const subzonesDir = path.join(process.cwd(), "data/subzones");
+export function loadPublishedSubzones(lang: "ro" | "en" = "ro"): SubzoneContent[] {
+  const subzonesDir = path.join(process.cwd(), "data/subzones", lang === "en" ? "en" : "");
   if (!fs.existsSync(subzonesDir)) {
     return [];
   }

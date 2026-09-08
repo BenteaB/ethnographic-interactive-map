@@ -1,0 +1,70 @@
+{
+  "id": "obcinele-sucevei",
+  "name": "Obcinele Sucevei",
+  "macroRegionId": "moldova",
+  "summary": "Bucovina, which became the Duchy of Bukovina in the Austrian Empire, is a historical region covering a territory of 10,443 km² that includes the area adjacent to the towns of Cajvana, Câmpulung Moldovenesc, Gura Humorului, Frasin, Milișăuți, Rădăuți, Siret, Solca, Suceava, Vatra Dornei, and Vicovu de Sus in Romania, as well as Chernivtsi, Kitsman, Zastavna, Vashkivtsi, Vyzhnytsia, Sadhora, and Storozhynets in Ukraine. The region is also at the crossroads between Eastern Europe and Central Europe.",
+  "geography": "Bucovina, which became the Duchy of Bukovina in the Austrian Empire, is a historical region covering a territory of 10,443 km² that includes the area adjacent to the towns of Cajvana, Câmpulung Moldovenesc, Gura Humorului, Frasin, Milișăuți, Rădăuți, Siret, Solca, Suceava, Vatra Dornei, and Vicovu de Sus in Romania, as well as Chernivtsi, Kitsman, Zastavna, Vashkivtsi, Vyzhnytsia, Sadhora, and Storozhynets in Ukraine. The region is also at the crossroads between Eastern Europe and Central Europe.",
+  "representativeVillages": [
+    "Vama",
+    "Ciocănești",
+    "Vatra Moldoviței",
+    "Fundu Moldovei"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "obcinele-sucevei-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/3532AE8171304FBCA38D24B171801971.jpg",
+      "alt": "\"Wood shed\"",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
+          "title": "ETNOMON – Suceava Plateau",
+          "retrievedAt": "2026-06-27T17:13:40.926Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 1)"
+        }
+      ]
+    },
+    {
+      "id": "obcinele-sucevei-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/placeholder_timbru.jpg",
+      "alt": "Carriage",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
+          "title": "ETNOMON – Suceava Plateau",
+          "retrievedAt": "2026-06-27T17:13:40.926Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monuments (page 1)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Bucovina",
+      "title": "Bukovina",
+      "retrievedAt": "2026-06-27T17:13:39.556Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Bukovina, which became the Duchy of Bukovina in the Austrian Empire, is a historical region covering a territory of 10,443 km² that includes the area adjacent to the towns of Cajvana, Câmpulung Moldovenesc, Gura Humorului, Frasin, Milișăuți, Rădăuți, Siret, Solca, Suceava, Vatra Dornei, and Vicovu."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:39.557Z",
+      "excerpt": "Located in the north of Moldova and north-west of Suceava county, with the Bucovina Obcine and the Fundu Moldovei depression. Representative villages: Vama, Ciocănești, Vatra Moldoviței, Fundu Moldovei."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
+      "title": "ETNOMON – Suceava Plateau",
+      "retrievedAt": "2026-06-27T17:13:40.926Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "2 monuments (page 1)"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "vrancea",
+  "name": "Vrancea",
+  "macroRegionId": "moldova",
+  "summary": "Vrancea is a county in the historical regions of Moldova and Muntenia in Romania. The county has an area of 4,863 km², and its residence is the municipality of Focșani. The main rivers are: Siret, Șușița, Putna, Milcov, Râmnicu Sărat. The highest altitudes are held by the Lăcăuț and Goru peaks. Vrancea County borders Vaslui County to the north-east, Galați County to the east, Brăila County to the south-east, Buzău County to the south, Covasna County to the west, and Bacău County to the north. The county is situated between the geographical coordinates 45°23’ and 46°11’ north latitude and 26°23’ and 27°32’ east longitude, being located in the south-east of the country, at the curvature of the Eastern Carpathians.",
+  "geography": "Vrancea is a county in the historical regions of Moldova and Muntenia in Romania. The county has an area of 4,863 km², and its residence is the municipality of Focșani. The main rivers are: Siret, Șușița, Putna, Milcov, Râmnicu Sărat. The highest altitudes are held by the Lăcăuț and Goru peaks. Vrancea County borders Vaslui County to the north-east, Galați County to the east, Brăila County to the south-east, Buzău County to the south, Covasna County to the west, and Bacău County to the north. The county is situated between the geographical coordinates 45°23’ and 46°11’ north latitude and 26°23’ and 27°32’ east longitude, being located in the south-east of the country, at the curvature of the Eastern Carpathians.",
+  "representativeVillages": [
+    "Soveja",
+    "Vidra",
+    "Lepșa",
+    "Tulnici",
+    "Greșu",
+    "Vizantea"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "vrancea-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/044103479DF04A588CB8BFFC8738DD6F.JPG",
+      "alt": "\"Burs Maftei\" Workshop",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Vrancea",
+          "title": "ETNOMON – Vrancea",
+          "retrievedAt": "2026-06-27T17:14:13.452Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "1 monuments (page 1)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Vrancea",
+      "title": "Vrancea County",
+      "retrievedAt": "2026-06-27T17:14:11.828Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Vrancea is a county in the historical regions of Moldova and Muntenia in Romania. The county has an area of 4,863 km², and its residence is the municipality of Focșani. The main rivers are: Siret, Șușița, Putna, Milcov, Râmnicu Sărat..."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic Zones – The Romanian Peasant Museum",
+      "retrievedAt": "2026-06-27T17:14:11.833Z",
+      "excerpt": "Situated in the lower Siret basin, in the north of Vrancea county, with the subzones Năruja Valley, Zăbala Valley, and Odobești Hills. Representative villages: Soveja, Vidra, Lepșa, Tulnici, Greșu, Vizantea..."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Vrancea",
+      "title": "ETNOMON – Vrancea",
+      "retrievedAt": "2026-06-27T17:14:13.452Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "1 monuments (page 1)"
+    }
+  ]
+}

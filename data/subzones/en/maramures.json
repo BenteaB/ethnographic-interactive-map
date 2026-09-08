@@ -1,0 +1,105 @@
+{
+  "id": "maramures",
+  "name": "Maramureș",
+  "macroRegionId": "transilvania",
+  "summary": "Maramureș is a geographical and ethno-cultural region located on the territory of Romania and Ukraine, consisting of the Maramureș Depression, located on the upper course of the Tisa valley, and the slopes of the mountains that surround it: the Oaș, Gutâi, Țibleș, and Rodna mountains to the west and south, and the Maramureș mountains to the east and north.",
+  "geography": "Maramureș is a geographical and ethno-cultural region located on the territory of Romania and Ukraine, consisting of the Maramureș Depression, located on the upper course of the Tisa valley, and the slopes of the mountains that surround it: the Oaș, Gutâi, Țibleș, and Rodna mountains to the west and south, and the Maramureș mountains to the east and north.",
+  "representativeVillages": [
+    "Ocna Șugatag",
+    "Borșa",
+    "Botiza",
+    "Bârsana",
+    "Ieud",
+    "Desești",
+    "Moisei",
+    "Săpânța",
+    "Vadu Izei"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "maramures-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/AF7AE89E595F48CCA9FB92E1B7290B98.jpg",
+      "alt": "House of the craftswoman (Turda House)",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureș",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monuments (page 4)"
+        }
+      ]
+    },
+    {
+      "id": "maramures-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/thumb/027D7E84DCAA4FCFBDFD17C86BDD86B8.JPG",
+      "alt": "Workshop",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureș",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monuments (page 4)"
+        }
+      ]
+    },
+    {
+      "id": "maramures-etnomon-img-3",
+      "src": "https://etnomon.cimec.ro/pics/thumb/89AECFBACB2F43258449EED251F0D93C.JPG",
+      "alt": "Threshing machine",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureș",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monuments (page 4)"
+        }
+      ]
+    },
+    {
+      "id": "maramures-etnomon-img-4",
+      "src": "https://etnomon.cimec.ro/pics/thumb/3E1FD2E042BB406FB763E37BD1AE1BC3.JPG",
+      "alt": "\"Threshing machine\"",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+          "title": "ETNOMON – Maramureș",
+          "retrievedAt": "2026-06-27T17:12:14.607Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "4 monuments (page 4)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Maramure%C8%99",
+      "title": "Maramureș",
+      "retrievedAt": "2026-06-27T17:12:27.929Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Maramureș is a geographical and ethno-cultural region located on the territory of Romania and Ukraine, consisting of the Maramureș Depression, located on the upper course of the Tisa valley, and the slopes of the mountains that surround it: the Oaș, Gutâi, Țibleș, and Rodna mountains to the west and south."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Ethnographic zones – Museum of the Romanian Peasant",
+      "retrievedAt": "2026-06-27T17:13:49.140Z",
+      "excerpt": "Ancient Romanian land noted for its variety of landscapes, richness of traditional folk culture. Localities: Ocna Șugatag, Borșa, Botiza, Bârsana, Ieud, Desești, Moisei, Săpânța, Vadu Izei."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Maramure%C5%9F&page=4",
+      "title": "ETNOMON – Maramureș",
+      "retrievedAt": "2026-06-27T17:12:14.607Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "4 monuments (page 4)"
+    }
+  ]
+}
