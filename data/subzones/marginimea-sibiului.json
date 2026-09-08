@@ -1,0 +1,61 @@
+{
+  "id": "marginimea-sibiului",
+  "name": "Mărginimea Sibiului",
+  "macroRegionId": "transilvania",
+  "summary": "Mărginimea Sibiului este o zonă care include 18 localități din România aflate în partea de sud-vest a județului Sibiu din Transilvania, toate având o moștenire etnologică, culturală, arhitecturală și istorică unică.",
+  "geography": "Mărginimea Sibiului este o zonă care include 18 localități din România aflate în partea de sud-vest a județului Sibiu din Transilvania, toate având o moștenire etnologică, culturală, arhitecturală și istorică unică.",
+  "representativeVillages": [
+    "Jina",
+    "Poiana",
+    "Rod",
+    "Săliște",
+    "Tilisca",
+    "Boița",
+    "Gura Râului",
+    "Orlat",
+    "Rășinari",
+    "Sibiel"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "marginimea-sibiului-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/998DA368496946669F4DFE2D484E338B.jpg",
+      "alt": "Batoza de treierat „Clayton”",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=M%C4%83rginimea%20Sibiului",
+          "title": "ETNOMON – Mărginimea Sibiului",
+          "retrievedAt": "2026-06-27T17:13:56.730Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "1 monumente (pagina 1)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/M%C4%83rginimea_Sibiului",
+      "title": "Mărginimea Sibiului",
+      "retrievedAt": "2026-06-27T17:13:55.569Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Mărginimea Sibiului este o zonă care include 18 localități din România aflate în partea de sud-vest a județului Sibiu din Transilvania, toate având o moștenire etnologică, culturală, arhitecturală și istorică unică."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:55.571Z",
+      "excerpt": "Zonă de păstorit cu transhumanță liberă de la poalele Munților Cindrel. Include 18 localități, printre care Jina, Poiana, Rod, Săliște, Tilisca, Gales. Sate turistice: Boița, Gura Râului, Orlat, Rășin"
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=M%C4%83rginimea%20Sibiului",
+      "title": "ETNOMON – Mărginimea Sibiului",
+      "retrievedAt": "2026-06-27T17:13:56.730Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "1 monumente (pagina 1)"
+    }
+  ]
+}

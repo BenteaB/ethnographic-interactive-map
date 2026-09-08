@@ -1,0 +1,51 @@
+{
+  "id": "gorj",
+  "name": "Gorj",
+  "macroRegionId": "oltenia",
+  "summary": "Județul Gorj este unul dintre cele 41 de județe din România, situat în regiunea Oltenia. Reședința este la municipiul Târgu Jiu.",
+  "geography": "Județul Gorj este unul dintre cele 41 de județe din România, situat în regiunea Oltenia. Reședința este la municipiul Târgu Jiu.",
+  "representativeVillages": [
+    "Tismana",
+    "Polovragi",
+    "Baia de Fier",
+    "Arcani",
+    "Peștișani",
+    "Runcu",
+    "Ciuperceni"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "gorj-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Prezentare_Judet_Gorj.jpg/330px-Prezentare_Judet_Gorj.jpg",
+      "alt": "Județul Gorj",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+          "title": "Județul Gorj",
+          "retrievedAt": "2026-06-27T17:12:43.054Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Județul Gorj este unul dintre cele 41 de județe din România, situat în regiunea Oltenia. Reședința este la municipiul Târgu Jiu."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Jude%C8%9Bul_Gorj",
+      "title": "Județul Gorj",
+      "retrievedAt": "2026-06-27T17:12:43.054Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Județul Gorj este unul dintre cele 41 de județe din România, situat în regiunea Oltenia. Reședința este la municipiul Târgu Jiu."
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:12:43.061Z",
+      "excerpt": "Situată în NV Olteniei, pe cursul mijlociu al râului Jiu. Zona etnofolclorică Gorj este alcătuită din valea Jiului și valea Sadului. Sate reprezentative: Tismana, Polovragi, Baia de Fier, Arcani, Peșt"
+    }
+  ]
+}

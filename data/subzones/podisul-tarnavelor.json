@@ -1,0 +1,46 @@
+{
+  "id": "podisul-tarnavelor",
+  "name": "Podișul Târnavelor",
+  "macroRegionId": "transilvania",
+  "summary": "Podișul Târnavelor este una dintre cele trei subunități ale Depresiunii Coliniare a Transilvaniei (DCT), se află între Mureș și Olt, are relief mai accidentat și altitudini mai înalte spre est și mai joase spre vest și sud, are două subunitați:Podișul Hârtibaciului în S-E\nPodișul Secașelor în N-V",
+  "geography": "Podișul Târnavelor este una dintre cele trei subunități ale Depresiunii Coliniare a Transilvaniei (DCT), se află între Mureș și Olt, are relief mai accidentat și altitudini mai înalte spre est și mai joase spre vest și sud, are două subunitați:Podișul Hârtibaciului în S-E\nPodișul Secașelor în N-V",
+  "representativeVillages": [
+    "Axente Sever",
+    "Biertan"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "podisul-tarnavelor-wiki-img",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kisk%C3%BCk%C3%BCll%C5%91v%C3%B6lgye2.jpg/330px-Kisk%C3%BCk%C3%BCll%C5%91v%C3%B6lgye2.jpg",
+      "alt": "Podișul Târnavelor",
+      "credit": "Wikipedia",
+      "sources": [
+        {
+          "url": "https://ro.wikipedia.org/wiki/Podi%C8%99ul_T%C3%A2rnavelor",
+          "title": "Podișul Târnavelor",
+          "retrievedAt": "2026-06-27T17:13:18.694Z",
+          "license": "CC BY-SA 4.0",
+          "excerpt": "Podișul Târnavelor este una dintre cele trei subunități ale Depresiunii Coliniare a Transilvaniei (DCT), se află între Mureș și Olt, are relief mai accidentat și altitudini mai înalte spre est și mai joase spre vest și sud, are două subunitați:Podișul Hârtibaciului în S-E\nPodișul"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Podi%C8%99ul_T%C3%A2rnavelor",
+      "title": "Podișul Târnavelor",
+      "retrievedAt": "2026-06-27T17:13:18.694Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Podișul Târnavelor este una dintre cele trei subunități ale Depresiunii Coliniare a Transilvaniei (DCT), se află între Mureș și Olt, are relief mai accidentat și altitudini mai înalte spre est și mai joase spre vest și sud, are două subunitați:Podișul Hârtibaciului în S-E\nPodișul"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:18.697Z",
+      "excerpt": "Ocupă sudul județului Mureș, sud-vestul Harghitei, nordul Brașovului și Sibiu, vestul Alba. Sate reprezentative: Axente Sever, Biertan."
+    }
+  ]
+}

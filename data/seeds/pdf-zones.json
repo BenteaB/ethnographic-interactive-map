@@ -1,0 +1,137 @@
+{
+  "source": "artifacts/Zone_etnografice.pdf",
+  "zones": [
+    {
+      "section": 1,
+      "name": "Bran",
+      "text": "Culoarul Bran constituie unul dintre puținele pasuri lungi de trecere peste Carpații Meridionali, între Muntenia și Transilvania. Satele reprezentative: Bran, Moeciu, Fundata, Râșnov.",
+      "villages": ["Bran", "Moeciu", "Fundata", "Râșnov"]
+    },
+    {
+      "section": 2,
+      "name": "Țara Moților",
+      "text": "Situată în partea centrală a Munților Apușeni, în bazinul râului Arieș. Aparține județelor Alba și Cluj. Sate reprezentative: Arieșeni, Gârda de Sus, Avram Iancu, Bistra, Albac, Lupșa, Sălciua, Scărișoara.",
+      "villages": ["Arieșeni", "Gârda de Sus", "Avram Iancu", "Bistra", "Albac", "Lupșa", "Sălciua", "Scărișoara"]
+    },
+    {
+      "section": 3,
+      "name": "Gorj",
+      "text": "Situată în NV Olteniei, pe cursul mijlociu al râului Jiu. Zona etnofolclorică Gorj este alcătuită din valea Jiului și valea Sadului. Sate reprezentative: Tismana, Polovragi, Baia de Fier, Arcani, Peștișani, Runcu, Ciuperceni.",
+      "villages": ["Tismana", "Polovragi", "Baia de Fier", "Arcani", "Peștișani", "Runcu", "Ciuperceni"]
+    },
+    {
+      "section": 4,
+      "name": "Țara Oașului",
+      "text": "Zona etnografică situată în extremitatea nord-vestică a țării, în nord și nord-estul județului Satu Mare. Sate reprezentative: Călinești Oaș și Bixad.",
+      "villages": ["Călinești Oaș", "Bixad"]
+    },
+    {
+      "section": 5,
+      "name": "Ținutul Năsăudului",
+      "text": "Situată în partea de NE a Podișului Transilvaniei, în estul și nord-estul județului Bistrița-Năsăud. Sate reprezentative: Șanț, Bistrița Bârgăului, Prundul Bârgăului, Colibița.",
+      "villages": ["Șanț", "Bistrița Bârgăului", "Prundul Bârgăului", "Colibița"]
+    },
+    {
+      "section": 6,
+      "name": "Țara Făgărașului",
+      "text": "Situată în zona de contact a Munților Făgăraș, Perșani, Lotru și Podișul Hârtibaciului. Ocupă centrul-vest al județului Brașov și sud-estul județului Sibiu. Sate reprezentative: Sâmbăta de Sus, Lisa.",
+      "villages": ["Sâmbăta de Sus", "Lisa"]
+    },
+    {
+      "section": 7,
+      "name": "Harghita – Covasna",
+      "text": "Ocupă poziția central-sud-estică a Carpaților Orientali, cuprinzând depresiunile Giurgeu-Ciuc și Covasna. Sate reprezentative: Lăzarea, Corund, Praid, Arcuș.",
+      "villages": ["Lăzarea", "Corund", "Praid", "Arcuș"]
+    },
+    {
+      "section": 8,
+      "name": "Ținutul Neamțului",
+      "text": "Zona etnofolclorică Neamț este situată în partea central-nordică a Moldovei. Sate reprezentative: Agapia, Tâmpești.",
+      "villages": ["Agapia", "Tâmpești"]
+    },
+    {
+      "section": 9,
+      "name": "Podișul Târnavelor",
+      "text": "Ocupă sudul județului Mureș, sud-vestul Harghitei, nordul Brașovului și Sibiu, vestul Alba. Sate reprezentative: Axente Sever, Biertan.",
+      "villages": ["Axente Sever", "Biertan"]
+    },
+    {
+      "section": 10,
+      "name": "Sudul Munteniei",
+      "text": "Situată în sudul Munteniei, zona etnografică Teleorman ocupă partea centrală a Câmpiei Române. Sate reprezentative: Suhaia, Drăgănești Vlașca.",
+      "villages": ["Suhaia", "Drăgănești Vlașca"]
+    },
+    {
+      "section": 11,
+      "name": "Tulcea și Delta Dunării",
+      "text": "Zona etnografică Tulcea se suprapune Deltei Dunării, cu subzonele Niculițel și Babadag. Sate reprezentative: Crișan, Murighiol, Sf. Gheorghe, Mila 23.",
+      "villages": ["Crișan", "Murighiol", "Sf. Gheorghe", "Mila 23"]
+    },
+    {
+      "section": 12,
+      "name": "Vâlcea",
+      "text": "Situată pe cursul mijlociu al Oltului, între Munții Făgăraș și Cozia la est și Munții Lotrului și Căpățânii la vest. Țara Loviștei ocupă nord-estul județului Vâlcea. Sate reprezentative: Malaia, Vaideeni, Horezu, Voineasa.",
+      "villages": ["Malaia", "Vaideeni", "Horezu", "Voineasa"]
+    },
+    {
+      "section": 13,
+      "name": "Țara Hațegului",
+      "text": "Situată în Depresiunea Hațeg, în sud-estul județului Hunedoara, cu Valea Streiului în vest. Sate reprezentative: Râu de Mori, Densuș, Sarmizegetusa, Sălașu de Sus.",
+      "villages": ["Râu de Mori", "Densuș", "Sarmizegetusa", "Sălașu de Sus"]
+    },
+    {
+      "section": 14,
+      "name": "Obcinele Sucevei",
+      "text": "Situată în nordul Moldovei și nord-vestul județului Suceava, cu Obcinele Bucovinei și depresiunea Fundul Moldovei. Sate reprezentative: Vama, Ciocănești, Vatra Moldoviței, Fundu Moldovei.",
+      "villages": ["Vama", "Ciocănești", "Vatra Moldoviței", "Fundu Moldovei"]
+    },
+    {
+      "section": 15,
+      "name": "Câmpia Timișului și Câmpia Aradului",
+      "text": "Câmpia Timișului în vestul României, cu sate turistice Lenauheim și Teremia Mare. Câmpia Aradului pe cursurile inferioare ale Mureșului, cu Șiria și Ghioroc.",
+      "villages": ["Lenauheim", "Teremia Mare", "Șiria", "Ghioroc"]
+    },
+    {
+      "section": 16,
+      "name": "Dealurile Clujului",
+      "text": "Situată în centrul Transilvaniei, aparținând județelor Cluj și Sălaj. Sate reprezentative: Sâncraiu și Poieni.",
+      "villages": ["Sâncraiu", "Poieni"]
+    },
+    {
+      "section": 17,
+      "name": "Muscelele Argeșului",
+      "text": "Zonă etnofolclorică reprezentativă în nord-estul județului Argeș. Sate reprezentative: Lerești, Rucăr, Dâmbovicioara.",
+      "villages": ["Lerești", "Rucăr", "Dâmbovicioara"]
+    },
+    {
+      "section": 18,
+      "name": "Maramureș",
+      "text": "Străvechi ținut românesc remarcat prin varietatea peisajelor, bogăția culturii populare tradiționale. Localități: Ocna Șugatag, Borșa, Botiza, Bârsana, Ieud, Desești, Moisei, Săpânța, Vadu Izei.",
+      "villages": ["Ocna Șugatag", "Borșa", "Botiza", "Bârsana", "Ieud", "Desești", "Moisei", "Săpânța", "Vadu Izei"]
+    },
+    {
+      "section": 19,
+      "name": "Mărginimea Sibiului",
+      "text": "Zonă de păstorit cu transhumanță liberă de la poalele Munților Cindrel. Include 18 localități, printre care Jina, Poiana, Rod, Săliște, Tilisca, Gales. Sate turistice: Boița, Gura Râului, Orlat, Rășinari, Sibiel.",
+      "villages": ["Jina", "Poiana", "Rod", "Săliște", "Tilisca", "Boița", "Gura Râului", "Orlat", "Rășinari", "Sibiel"]
+    },
+    {
+      "section": 20,
+      "name": "Câmpia Olteniei",
+      "text": "Situată în bazinul inferior al Jiului, pe stânga Dunării, în județul Dolj. Sate reprezentative: Dăbuleni și Ghighera.",
+      "villages": ["Dăbuleni", "Ghighera"]
+    },
+    {
+      "section": 21,
+      "name": "Valea Prahovei",
+      "text": "Situată în partea central-nordică a Munteniei, în județul Prahova. Sate reprezentative: Breaza, Telega, Cornu, Cerașu, Valea Doftanei, Cheia, Brebu.",
+      "villages": ["Breaza", "Telega", "Cornu", "Cerașu", "Valea Doftanei", "Cheia", "Brebu"]
+    },
+    {
+      "section": 22,
+      "name": "Vrancea",
+      "text": "Situată în bazinul inferior al Siretului, în nordul județului Vrancea, cu subzonele Valea Nărujei, Valea Zăbalei și Dealurile Odobești. Sate reprezentative: Soveja, Vidra, Lepșa, Tulnici, Greșu, Vizantea.",
+      "villages": ["Soveja", "Vidra", "Lepșa", "Tulnici", "Greșu", "Vizantea"]
+    }
+  ]
+}

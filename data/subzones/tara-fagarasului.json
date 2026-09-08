@@ -1,0 +1,98 @@
+{
+  "id": "tara-fagarasului",
+  "name": "Țara Făgărașului",
+  "macroRegionId": "transilvania",
+  "summary": "Țara Făgărașului este o depresiune și un ținut istoric din Transilvania, situat de-a lungul cursului mijlociu al râului Olt, cu centrul în cetatea medievală Făgăraș. În 1876 teritoriul Țării Făgărașului a fost organizat în comitatul Făgăraș, unitatea administrativă precursoare a județului interbelic Făgăraș. \nPrin Legea nr. 5 din 6 septembrie 1950, după instaurarea a Republicii Populare Române, județele interbelice au fost desființate, iar ținutul Făgărașului a fost încorporat, în nou creata Regiune Sibiu; aceasta fiind desființată în 1952, teritoriul făgărășean a fost cuprins în Regiunea Stalin, care, în 1960, a fost redenumită Regiunea Brașov. În 1966, odată cu reorganizarea administrativ-teritorială a Republicii Socialiste România, ținutul Făgărașului a fost împărțit între județele actuale Brașov și Sibiu.",
+  "geography": "Țara Făgărașului este o depresiune și un ținut istoric din Transilvania, situat de-a lungul cursului mijlociu al râului Olt, cu centrul în cetatea medievală Făgăraș. În 1876 teritoriul Țării Făgărașului a fost organizat în comitatul Făgăraș, unitatea administrativă precursoare a județului interbelic Făgăraș. \nPrin Legea nr. 5 din 6 septembrie 1950, după instaurarea a Republicii Populare Române, județele interbelice au fost desființate, iar ținutul Făgărașului a fost încorporat, în nou creata Regiune Sibiu; aceasta fiind desființată în 1952, teritoriul făgărășean a fost cuprins în Regiunea Stalin, care, în 1960, a fost redenumită Regiunea Brașov. În 1966, odată cu reorganizarea administrativ-teritorială a Republicii Socialiste România, ținutul Făgărașului a fost împărțit între județele actuale Brașov și Sibiu.",
+  "representativeVillages": [
+    "Sâmbăta de Sus",
+    "Lisa"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "tara-fagarasului-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/B128E78924854A8C8827FC5AAAAC6B38.JPG",
+      "alt": "Şopron",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 5)"
+        }
+      ]
+    },
+    {
+      "id": "tara-fagarasului-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/thumb/EDA6A53FEC464F12861F92A1A3319550.JPG",
+      "alt": "Casa podarului",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 5)"
+        }
+      ]
+    },
+    {
+      "id": "tara-fagarasului-etnomon-img-3",
+      "src": "https://etnomon.cimec.ro/pics/thumb/4B712C3450EA4046A86E9D2FF075B595.jpg",
+      "alt": "Casă (gospodărie)",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 5)"
+        }
+      ]
+    },
+    {
+      "id": "tara-fagarasului-etnomon-img-4",
+      "src": "https://etnomon.cimec.ro/pics/thumb/C2F1F272A14D4373B9528F90E4546B9D.JPG",
+      "alt": "Casă",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+          "title": "ETNOMON – Ţara Făgăraşului",
+          "retrievedAt": "2026-06-27T17:14:50.114Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 5)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/%C8%9Aara_F%C4%83g%C4%83ra%C8%99ului",
+      "title": "Țara Făgărașului",
+      "retrievedAt": "2026-06-27T17:12:58.505Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Țara Făgărașului este o depresiune și un ținut istoric din Transilvania, situat de-a lungul cursului mijlociu al râului Olt, cu centrul în cetatea medievală Făgăraș. În 1876 teritoriul Țării Făgărașului a fost organizat în comitatul Făgăraș, unitatea administrativă precursoare a "
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:14:44.267Z",
+      "excerpt": "Situată în zona de contact a Munților Făgăraș, Perșani, Lotru și Podișul Hârtibaciului. Ocupă centrul-vest al județului Brașov și sud-estul județului Sibiu. Sate reprezentative: Sâmbăta de Sus, Lisa."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=%C5%A2ara%20F%C4%83g%C4%83ra%C5%9Fului&page=5",
+      "title": "ETNOMON – Ţara Făgăraşului",
+      "retrievedAt": "2026-06-27T17:14:50.114Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "2 monumente (pagina 5)"
+    }
+  ]
+}

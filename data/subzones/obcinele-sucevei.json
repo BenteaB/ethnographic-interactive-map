@@ -1,0 +1,70 @@
+{
+  "id": "obcinele-sucevei",
+  "name": "Obcinele Sucevei",
+  "macroRegionId": "moldova",
+  "summary": "Bucovina, devenită Ducatul Bucovinei în Imperiul Austriac, este o regiune istorică ce cuprinde un teritoriu de 10.443 km² care acoperă zona adiacentă orașelor Cajvana, Câmpulung Moldovenesc, Gura Humorului, Frasin, Milișăuți, Rădăuți, Siret, Solca, Suceava, Vatra Dornei și Vicovu de Sus din România, precum și Cernăuți, Cozmeni, Zastavna, Vășcăuți pe Ceremuș, Vijnița, Sadagura și Storojineț din Ucraina. Regiunea se află la răscrucea dintre Europa de Est și Europa Centrală de asemenea.",
+  "geography": "Bucovina, devenită Ducatul Bucovinei în Imperiul Austriac, este o regiune istorică ce cuprinde un teritoriu de 10.443 km² care acoperă zona adiacentă orașelor Cajvana, Câmpulung Moldovenesc, Gura Humorului, Frasin, Milișăuți, Rădăuți, Siret, Solca, Suceava, Vatra Dornei și Vicovu de Sus din România, precum și Cernăuți, Cozmeni, Zastavna, Vășcăuți pe Ceremuș, Vijnița, Sadagura și Storojineț din Ucraina. Regiunea se află la răscrucea dintre Europa de Est și Europa Centrală de asemenea.",
+  "representativeVillages": [
+    "Vama",
+    "Ciocănești",
+    "Vatra Moldoviței",
+    "Fundu Moldovei"
+  ],
+  "games": [],
+  "costumes": [],
+  "traditions": [],
+  "images": [
+    {
+      "id": "obcinele-sucevei-etnomon-img-1",
+      "src": "https://etnomon.cimec.ro/pics/thumb/3532AE8171304FBCA38D24B171801971.jpg",
+      "alt": "\"Şopron de lemne\"",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
+          "title": "ETNOMON – Podişul Sucevei",
+          "retrievedAt": "2026-06-27T17:13:40.926Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 1)"
+        }
+      ]
+    },
+    {
+      "id": "obcinele-sucevei-etnomon-img-2",
+      "src": "https://etnomon.cimec.ro/pics/placeholder_timbru.jpg",
+      "alt": "Birjă",
+      "credit": "ETNOMON / Complexul Naţional Muzeal ASTRA - Sibiu",
+      "sources": [
+        {
+          "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
+          "title": "ETNOMON – Podişul Sucevei",
+          "retrievedAt": "2026-06-27T17:13:40.926Z",
+          "license": "Institutul Național al Patrimoniului",
+          "excerpt": "2 monumente (pagina 1)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ro.wikipedia.org/wiki/Bucovina",
+      "title": "Bucovina",
+      "retrievedAt": "2026-06-27T17:13:39.556Z",
+      "license": "CC BY-SA 4.0",
+      "excerpt": "Bucovina, devenită Ducatul Bucovinei în Imperiul Austriac, este o regiune istorică ce cuprinde un teritoriu de 10.443 km² care acoperă zona adiacentă orașelor Cajvana, Câmpulung Moldovenesc, Gura Humorului, Frasin, Milișăuți, Rădăuți, Siret, Solca, Suceava, Vatra Dornei și Vicovu"
+    },
+    {
+      "url": "https://github.com/BenteaB/ethnographic-interactive-map/blob/main/artifacts/Zone_etnografice.pdf",
+      "title": "Zone etnografice – Muzeul Țăranului Român",
+      "retrievedAt": "2026-06-27T17:13:39.557Z",
+      "excerpt": "Situată în nordul Moldovei și nord-vestul județului Suceava, cu Obcinele Bucovinei și depresiunea Fundul Moldovei. Sate reprezentative: Vama, Ciocănești, Vatra Moldoviței, Fundu Moldovei."
+    },
+    {
+      "url": "https://etnomon.cimec.ro/index.asp?zona=Podi%C5%9Ful%20Sucevei",
+      "title": "ETNOMON – Podişul Sucevei",
+      "retrievedAt": "2026-06-27T17:13:40.926Z",
+      "license": "Institutul Național al Patrimoniului",
+      "excerpt": "2 monumente (pagina 1)"
+    }
+  ]
+}
